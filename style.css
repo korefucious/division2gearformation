@@ -1,0 +1,180 @@
+/* GENERAL */
+* {
+    background-color: black;
+    color: darkorange;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+
+html, body {
+    height: 100%;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Site Title */
+header {
+    border: 5px solid darkslategray;
+}
+
+
+.title {
+    padding: 5px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+/* Main Navigation */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+nav a {
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    border: 2px solid darkslategray;
+    padding: 5px;
+
+}
+
+nav a:hover {
+    background-color: darkslategrey;
+    color: gold;
+}
+
+nav a.active {
+    background-color: darkslategrey;
+    color: gold;
+}
+
+/* Site banner */
+#banner {
+    background-color: darkslategray;
+    color: lightgray;
+    font-weight: bold;
+    padding: 5px;
+}
+
+section {
+    margin: 5px;
+}
+
+#homeContent {
+    text-align: left;
+}
+
+/* Buttons */
+.buttons {
+    text-decoration: none;
+    background-color: darkslategray;
+    padding: 5px;
+    margin:5px;
+    font-size: 20px;
+}
+
+.buttons:hover{
+    background-color: orange;
+    color: darkslategray;
+    font-weight: bold;
+}
+
+#namedWeaponsTable {
+    display: none;
+}
+
+#assaultRiflesTable {
+    display: none;
+}
+
+/* Tables */
+.tables {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: relative;
+}
+
+.tables td {
+    border: 1px solid orangered;
+    padding: 8px;
+}
+
+.tables tr:hover td {
+    background-color: darkslategray;
+    color: yellow;
+}
+
+.tables th {
+    position: sticky;
+    top: 0;
+    border: 1px solid white;
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(5, 5, 54);
+    font-size: 20px;
+}
+
+
+/* layout for gear attributes */
+.row1 {
+    display: inline-block;
+}
+
+.row2 {
+    display: inline-block;
+}
+
+#coreGearAttr {
+    display: block;
+    margin: 10px;
+    height: 188px;
+}
+
+#blueGearAttr {
+    display: block;
+    margin: 10px;
+}
+
+#redGearAttr {
+    display: block;
+    margin: 10px;
+}
+
+#yellowGearAttr {
+    display: block;
+    margin: 10px;
+}
+
+/* Footer */
+footer nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategray;
+    color:black;
+}
+
+footer nav a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: darkorange;
+    border-left: 2px dotted black;
+    border-right: 2px dotted black;
+    color: black;
+    padding: 10px;
+    margin: 0;
+}
+
+footer nav a:hover {
+    background-color:  slategray;
+}
