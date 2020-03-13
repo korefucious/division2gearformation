@@ -1,51 +1,32 @@
 /* GENERAL */
 * {
+    max-width: 100%;
+}
+
+body {
     background-color: black;
-    color: darkorange;
-    text-align: center;
     margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman';
 }
 
-html, body {
-    height: 100%;
-}
-
-p {
-    font-size: 20px;
-}
-
-/* Site Title */
+/* HEADER */
 header {
     border: 5px solid darkslategray;
 }
-
-
-.title {
-    padding: 5px;
-}
-
-h2 {
-    font-size: 40px;
-    font-weight: lighter;
+/* TITLE */
+header h1, h2 {
+    color:white;
 }
 
 /* Main Navigation */
 nav {
     display: flex;
     justify-content: space-evenly;
-    max-width: 100%;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 nav a {
-    margin: 5px;
-    padding: 5px;
+    width: 5%;
     text-decoration: none;
-    border: 2px solid darkslategray;
-    padding: 5px;
-
 }
 
 nav a:hover {
