@@ -1,6 +1,8 @@
 /* GENERAL */
 * {
+    color: orange;
     max-width: 100%;
+    margin: 0;
 }
 
 body {
@@ -8,43 +10,58 @@ body {
     margin: 0;
 }
 
-/* HEADER */
-header {
-    border: 5px solid darkslategray;
-}
-/* TITLE */
-header h1, h2 {
-    color:white;
-}
-
-/* Main Navigation */
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-nav a {
-    width: 5%;
+a {
     text-decoration: none;
 }
-
-nav a:hover {
-    background-color: darkslategrey;
-    color: gold;
+/* HEADER */
+img {
+    margin: 0;
+}
+/* Main Navigation */
+/* TOP NAV */
+nav {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    padding: 1%;
 }
 
-nav a.active {
+.navLine {
+    border: 1px dashed white;
+    height: 15px;
+}
+/* DROPDOWN */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    border: 1px solid white;
+    width: 20%;
+}
+
+.dropdown-content a {
+    display: block;
+    margin: 1% auto;
+    transition: 1s;
+}
+
+.dropdown-content a:hover {
+    color:gold;
     background-color: darkslategrey;
-    color: gold;
+    padding: 5%;
+    transition: 1s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /* Site banner */
-#banner {
+h3 {
     background-color: darkslategray;
     color: lightgray;
     font-weight: bold;
-    padding: 5px;
 }
 
 section {
