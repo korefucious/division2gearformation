@@ -89,6 +89,8 @@ a {
 
 /* CONTENT CONTAINER */
 .content-container {
+  display: flex;
+  align-items: center;
   width: 50%;
 }
 
