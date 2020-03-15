@@ -10,6 +10,10 @@ body {
     margin: 0;
 }
 
+.body-container {
+  width: 100%;
+}
+
 a {
     text-decoration: none;
 }
@@ -20,7 +24,6 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     margin: 1%;
 }
 
@@ -94,12 +97,26 @@ a {
   width: 50%;
 }
 
+#named-weapons {
+  display: block;
+  width: 100%;
+}
+
+#named-weapons .row {
+  display: flex;
+}
+
+/* HOME */
+.home-content h2 {
+  margin: 5%;
+}
 
 /* TABLES */
 .tables {
     border-collapse: collapse;
     width: 100%;
     border: 5px solid white;
+    margin: 1%;
 }
 
 .tables td {
