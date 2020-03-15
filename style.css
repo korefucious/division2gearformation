@@ -88,14 +88,16 @@ a {
 }
 
 /* CONTENT CONTAINER */
+.content-container {
+  width: 50%;
+}
 
 
-
-/* Tables */
+/* TABLES */
 .tables {
     border-collapse: collapse;
     width: 100%;
-    border: 1px solid white;
+    border: 5px solid white;
 }
 
 .tables td {
@@ -109,7 +111,7 @@ a {
     color: gold;
     text-shadow: 2px 2px black;
     text-shadow: 3px 3px 3px black;
-    padding: 5%;
+    font-size: large;
     transition: 1s;
 }
 
@@ -121,11 +123,21 @@ a {
     font-size: 20px;
 }
 
+.tables h3 {
+  text-decoration: underline;
+}
+
+.tables p {
+  margin: 2%;
+}
+
 /* WEAPON ATTRIBUTES */
-h2 {
+.wpn-attr-h2 {
     margin: 5%;
+    text-decoration: underline;
 }
 
 li {
     font-size: large;
+    padding: 1%
 }
