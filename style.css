@@ -98,7 +98,8 @@ a {
 }
 
 #named-weapons {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -107,9 +108,17 @@ a {
   justify-content: center;
 }
 
+#last-row {
+  width: 50%;
+}
+
 /* HOME */
 .home-content h2 {
   margin: 5%;
+}
+
+.home-content h3 {
+  word-spacing: 5px;
 }
 
 /* TABLES */
