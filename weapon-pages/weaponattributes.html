@@ -1,62 +1,131 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
+
+<head>
+    <title>Home: Division 2 Gearformation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="index.js"></script>
+</head>
+
 <body>
-    <header class="title">
-        <h1 class="title">Division 2 Gearformation</h1>
-        <p class="title">Warlords of New York: TU8</p>
+    <header>
+        <nav class="top-nav">
+            <div class="dropdown">
+                <button class="dropdown-button">
+                    <a href="/index.html">HOME</a>
+                </button>
+            </div>
+            <div class="navLine"></div>
+            <div class="dropdown">
+                <button class="dropdown-button">WEAPONS</button>
+                <div class="dropdown-content">
+                    <a href="/weapon-pages/weaponattributes.html">ATTRIBUTES</a>
+                    <a href="#">EXOTICS</a>
+                    <a href="#">NAMED</a>
+                    <a href="#">TALENTS</a>
+                </div>
+            </div>
+            <div class="navLine"></div>
+            <div class="dropdown">
+                <button class="dropdown-button">GEAR</button>
+                <div class="dropdown-content">
+                    <a href="#">4 PIECE SETS</a>
+                    <a href="#">ATTRIBUTES</a>
+                    <a href="#">BRAND SETS</a>
+                    <a href="#">MODS</a>
+                    <a href="#">NAMED</a>
+                    <a href="#">TALENTS</a>
+                </div>
+            </div>
+            <div class="navLine"></div>
+            <div class="dropdown">
+                <button class="dropdown-button">SKILLS</button>
+                <div class="dropdown-content">
+                    <a href="#">CHEM LAUNCHER</a>
+                    <a href="#">DECOY</a>
+                    <a href="#">DRONE</a>
+                    <a href="#">FIREFLY</a>
+                    <a href="#">HIVE</a>
+                    <a href="#">PULSE</a>
+                    <a href="#">SEEKER MINE</a>
+                    <a href="#">SHIELD</a>
+                    <a href="#">SHOCK TRAP</a>
+                    <a href="#">STICKY BOMB</a>
+                    <a href="#">TURRET</a>
+                    <a href="#">MODS</a>
+                </div>
+            </div>
+            <div class="navLine"></div>
+            <div class="dropdown">
+                <button class="dropdown-button">SPECS</button>
+                <div class="dropdown-content">
+                    <a href="#">DEMOLITIONIST</a>
+                    <a href="#">FIREWALL</a>
+                    <a href="#">GUNNER</a>
+                    <a href="#">SHARPSHOOTER</a>
+                    <a href="#">SURVIVALIST</a>
+                    <a href="#">TECHNICIAN</a>
+                </div>
+            </div>
+            <div class="navLine"></div>
+            <div><img class="title-img" src="/Div2logo.png"></div>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="weapons.html">WEAPONS</a></li>
-            <li><a href="weapontalents.html">WEAPON TALENTS</a></li>
-            <li><a class="active" href="weaponattributes.html">WEAPON ATTRIBUTES</a></li>
-            <li><a href="brandsets.html">BRAND SETS</a></li>
-            <li><a href="gearsets.html">GEAR SETS</a></li>
-            <li><a href="geartalents.html">GEAR TALENTS</a></li>
-            <li><a href="gearattributes.html">GEAR ATTRIBUTES</a></li>
-            <li><a href="gearmods.html">GEAR MODS</a></li>
-            <li><a href="exotics.html">EXOTICS</a></li>
-            <li><a href="skills.html">SKILLS</a></li>
-            <li><a href="specializations.html">SPECIALIZATIONS</a></li>
-            <li><a href="builds.html">BUILD</a></li>
-        </ul>
-    </nav>
-    <h2>
-        The one stop shop for all information related to 
-        Gear 2.0 and what you need to know to create a 
-        build!
-    </h2>
-    <div class="centerTable">
-        <div class="tableContainer">
-            <table class="tables" id="weaponAttrTable">
+    <hr>
+    <section class="content">
+        <div class="content-container">
+            <table class="tables">
                 <tr>
-                    <th>ATTR</th>
-                    <th>AR</th>
-                    <th>LMG</th>
-                    <th>Marksman</th>
-                    <th>Pistol</th>
-                    <th>Rifle</th>
-                    <th>Shotgun</th>
-                    <th>SMG</th>
+                    <th>TYPE</th>
+                    <th>CORE</th>
                 </tr>
                 <tr>
-                    <td>Damage to Armor</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
+                    <td>RIFLE:</td>
+                    <td>RIFLE DAMAGE + CRIT HIT DAMAGE</td>
+                </tr>
+                <tr>
+                    <td>ASSAULT RIFLE:</td>
+                    <td> AR DAMAGE + HEALTH DAMAGE</td>
+                </tr>
+                <tr>
+                    <td> MARKSMAN RIFLE:</td>
+                    <td>MARKSMAN DAMAGE + HEADHSOT DAMAGE</td>
+                </tr>
+                <tr>
+                    <td>SHOTGUN:</td>
+                    <td>SHOTGUN DAMAGE + DAMAGE to ARMOR</td>
+                </tr>
+                <tr>
+                    <td>SMG:</td>
+                    <td>SMG DAMAGE + CRIT HIT CHANCE</td>
+                </tr>
+                <tr>
+                    <td>LMG:</td>
+                    <td>LMG DAMAGE + DAMAGE to TARGET out of COVER</td>
+                </tr>
+                <tr>
+                    <td>PISTOL:</td>
+                    <td>PISTOL DAMAGE</td>
                 </tr>
             </table>
+            <h2>AVAILABLE ATTRIBUTES:</h2>
+            <ul>
+                <li>Damage to Armor</li>
+                <li>Crit Hit Chance</li>
+                <li>DMG to target out of Cover</li>
+                <li>Health Damage</li>
+                <li>Crit Hit damage</li>
+                <li>Reload Speed</li>
+                <li>Stability</li>
+                <li>Accuracy</li>
+                <li>Optimal Range</li>
+                <li>Magazine Size</li>
+                <li>Rate of Fire</li>
+                <li>Swap Speed</li>
+            </ul>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>

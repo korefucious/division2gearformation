@@ -13,166 +13,119 @@ body {
 a {
     text-decoration: none;
 }
-/* HEADER */
-img {
-    margin: 0;
-}
+
 /* Main Navigation */
 /* TOP NAV */
-nav {
+.top-nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 1%;
+}
+
+.title-img {
+    height: 100px;
     border: 1px solid white;
-    padding: 1%;
 }
 
 .navLine {
     border: 1px dashed white;
     height: 15px;
 }
+
 /* DROPDOWN */
-.dropdown-content {
+
+.dropdown-button {
+    background-color:black;
+    border: 1px solid white;
+    padding: 15px;
+    transition: 1s;
+  }
+  
+  .dropdown-content {
     display: none;
     position: absolute;
-    z-index: 1;
     background-color: black;
+  }
+  
+  .dropdown-content a {
     border: 1px solid white;
-    width: 20%;
-}
-
-.dropdown-content a {
-    display: block;
-    margin: 1% auto;
-    transition: 1s;
-}
-
-.dropdown-content a:hover {
-    color:gold;
-    background-color: darkslategrey;
-    padding: 5%;
-    transition: 1s;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Site banner */
-h3 {
-    background-color: darkslategray;
-    color: lightgray;
-    font-weight: bold;
-}
-
-section {
-    margin: 5px;
-}
-
-#homeContent {
-    text-align: left;
-}
-
-/* Buttons */
-.buttons {
+    padding: 15px;
     text-decoration: none;
+    display: block;
+    transition: 1s;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: darkslategray;
+      text-shadow: 2px 2px black;
+      text-shadow: 3px 3px 3px black;
+      font-size: 20px;
+      padding: 20px;
+      transition: 1s;
+    }
+
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-button {
     background-color: darkslategray;
-    padding: 5px;
-    margin:5px;
-    font-size: 20px;
+    padding: 25px;
+    text-shadow: 2px 2px black;
+      text-shadow: 3px 3px 3px black;
+    transition: 1s;
+
+  }
+
+/* CONTENT */
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
 }
 
-.buttons:hover{
-    background-color: orange;
-    color: darkslategray;
-    font-weight: bold;
-}
+/* CONTENT CONTAINER */
 
-#namedWeaponsTable {
-    display: none;
-}
 
-#assaultRiflesTable {
-    display: none;
-}
 
 /* Tables */
 .tables {
     border-collapse: collapse;
     width: 100%;
-    margin-bottom: relative;
+    border: 1px solid white;
 }
 
 .tables td {
-    border: 1px solid orangered;
-    padding: 8px;
+    padding: 3%;
+    border: 1px solid white;
+    transition: 1s;
 }
 
 .tables tr:hover td {
-    background-color: darkslategray;
-    color: yellow;
+    background-color: dimgray;
+    color: gold;
+    text-shadow: 2px 2px black;
+    text-shadow: 3px 3px 3px black;
+    padding: 5%;
+    transition: 1s;
 }
 
 .tables th {
-    position: sticky;
-    top: 0;
     border: 1px solid white;
     padding: 12px;
     text-align: center;
-    background-color: rgb(5, 5, 54);
+    background-color: darkslategray;
     font-size: 20px;
 }
 
-
-/* layout for gear attributes */
-.row1 {
-    display: inline-block;
+/* WEAPON ATTRIBUTES */
+h2 {
+    margin: 5%;
 }
 
-.row2 {
-    display: inline-block;
-}
-
-#coreGearAttr {
-    display: block;
-    margin: 10px;
-    height: 188px;
-}
-
-#blueGearAttr {
-    display: block;
-    margin: 10px;
-}
-
-#redGearAttr {
-    display: block;
-    margin: 10px;
-}
-
-#yellowGearAttr {
-    display: block;
-    margin: 10px;
-}
-
-/* Footer */
-footer nav {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: darkslategray;
-    color:black;
-}
-
-footer nav a {
-    display: inline-block;
-    text-decoration: none;
-    background-color: darkorange;
-    border-left: 2px dotted black;
-    border-right: 2px dotted black;
-    color: black;
-    padding: 10px;
-    margin: 0;
-}
-
-footer nav a:hover {
-    background-color:  slategray;
+li {
+    font-size: large;
 }
