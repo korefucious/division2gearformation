@@ -84,13 +84,14 @@ a {
   }
 
 /* CONTENT */
-.content {
-    display: flex;
-    justify-content: center;
-    margin: 1%;
-}
 
 /* CONTENT CONTAINERS */
+.content {
+  display: flex;
+  justify-content: center;
+  margin: 1%;
+}
+
 .content-container {
   width: 80%;
 }
@@ -140,11 +141,11 @@ a {
 }
 
 .tables th {
-    border: 1px solid white;
-    padding: 12px;
-    text-align: center;
-    background-color: darkslategray;
-    font-size: 20px;
+  border: 1px solid white;
+  padding: 12px;
+  text-align: center;
+  background-color: darkslategray;
+  font-size: 20px;
 }
 
 .tables h3 {
