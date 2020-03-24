@@ -1,71 +1,115 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="index.js"></script>
-    </head>
+
+<head>
+    <title>GEARformation: Division 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <script src="index.js"></script>
+</head>
+
 <body>
-    <header class="title">
-        <h1 class="title">Division 2 Gearformation</h1>
-        <p class="title">Warlords of New York: TU8</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="weapons.html">WEAPONS</a></li>
-            <li><a href="weapontalents.html">WEAPON TALENTS</a></li>
-            <li><a href="weaponattributes.html">WEAPON ATTRIBUTES</a></li>
-            <li><a href="brandsets.html">BRAND SETS</a></li>
-            <li><a href="gearsets.html">GEAR SETS</a></li>
-            <li><a class="active" href="geartalents.html">GEAR TALENTS</a></li>
-            <li><a href="gearattributes.html">GEAR ATTRIBUTES</a></li>
-            <li><a href="gearmods.html">GEAR MODS</a></li>
-            <li><a href="exotics.html">EXOTICS</a></li>
-            <li><a href="skills.html">SKILLS</a></li>
-            <li><a href="specializations.html">SPECIALIZATIONS</a></li>
-            <li><a href="builds.html">BUILD</a></li>
-        </ul>
-    </nav>
-    <h2>
-        The one stop shop for all information related to 
-        Gear 2.0 and what you need to know to create a 
-        build!
-    </h2>
-        <button class="buttons" onclick="chestTalentsButton()">CHEST</button>
-                <table class="tables" id="chestTalentsTable">
-                    <tr>
-                        <th>ICON</th>
-                        <th>NAME</th>
-                        <th>TALENT</th>
-                    </tr>
-                    <tr>
-                        <td>Picture goes here.</td>
-                        <td>Tag Team</td>
-                        <td>
-                            The last enemy you have damaged with a 
-                            skill is marked. Dealing weapon damage 
-                            that enemy consumes the mark to reduce 
-                            active cooldowns by 4s. Cooldown: 4s.
-                        </td>
-                    </tr>
-                </table>
-        <button class="buttons" onclick="backpackTalentsButton()">BACKPACK</button>
-        <table class="tables" id="backpackTalentsTable">
-            <tr>
-                <th>ICON</th>
-                <th>NAME</th>
-                <th>TALENT</th>
-            </tr>
-            <tr>
-                <td>Picture goes here.</td>
-                <td>Combined Arms</td>
-                <td>
-                    Shooting an enemy increases total skill 
-                    damage by 25% for 3s.
-                </td>
-            </tr>
-        </table>
+    <div class="body-container">
+        <header>
+            <nav class="top-nav">
+                <div class="dropdown">
+                    <a href="index.html">
+                        <button class="dropdown-button">
+                            HOME
+                        </button>
+                    </a>
+                </div>
+                <div class="navLine"></div>
+                <div class="dropdown">
+                    <button class="dropdown-button">WEAPONS</button>
+                    <div class="dropdown-content">
+                        <a href="/weapons/weaponattributes.html">ATTRIBUTES</a>
+                        <a href="/weapons/weapon-exotics.html">EXOTICS</a>
+                        <a href="/weapons/named-weapons.html">NAMED</a>
+                        <a href="/weapons/weapon-talents.html">TALENTS</a>
+                    </div>
+                </div>
+                <div class="navLine"></div>
+                <div class="dropdown">
+                    <button class="dropdown-button">GEAR</button>
+                    <div class="dropdown-content">
+                        <a href="/gear/gear-attributes.html">ATTRIBUTES</a>
+                        <a href="/gear/brandsets.html">BRAND SETS</a>
+                        <a href="/gear/gearmods.html">MODS</a>
+                        <a href="/gear/namedgear.html">NAMED</a>
+                        <a href="/gear/gear-sets.html">SET GEAR</a>
+                        <a href="/gear/geartalents.html">TALENTS</a>
+                    </div>
+                </div>
+                <div class="navLine"></div>
+                <div class="dropdown">
+                    <button class="dropdown-button">SKILLS</button>
+                    <div class="dropdown-content">
+                        <a href="/skills/chem.html">CHEM LAUNCHER</a>
+                        <a href="/skills/decoy.html">DECOY</a>
+                        <a href="/skills/drone.html">DRONE</a>
+                        <a href="/skills/firefly.html">FIREFLY</a>
+                        <a href="/skills/hive.html">HIVE</a>
+                        <a href="/skills/pulse.html">PULSE</a>
+                        <a href="/skills/seeker.html">SEEKER MINE</a>
+                        <a href="/skills/shield.html">SHIELD</a>
+                        <a href="/skills/shock.html">SHOCK TRAP</a>
+                        <a href="/skills/stickybomb.html">STICKY BOMB</a>
+                        <a href="/skills/turret.html">TURRET</a>
+                    </div>
+                </div>
+                <div class="navLine"></div>
+                <div class="dropdown">
+                    <button class="dropdown-button">SPECS</button>
+                    <div class="dropdown-content">
+                        <a href="/specs/demolition.html">DEMOLITIONIST</a>
+                        <a href="/specs/firewall.html">FIREWALL</a>
+                        <a href="/specs/gunner.html">GUNNER</a>
+                        <a href="/specs/sharpshooter.html">SHARPSHOOTER</a>
+                        <a href="/specs/survivalist.html">SURVIVALIST</a>
+                        <a href="/specs/technician.html">TECHNICIAN</a>
+                    </div>
+                </div>
+                <img class="title-img" src="/img/Div2logo.png">
+            </nav>
+        </header>
+        <hr>
+        <section class="content">
+            <button class="buttons" onclick="chestTalentsButton()">CHEST</button>
+            <table class="tables" id="chestTalentsTable">
+                <tr>
+                    <th>ICON</th>
+                    <th>NAME</th>
+                    <th>TALENT</th>
+                </tr>
+                <tr>
+                    <td>Picture goes here.</td>
+                    <td>Tag Team</td>
+                    <td>
+                        The last enemy you have damaged with a
+                        skill is marked. Dealing weapon damage
+                        that enemy consumes the mark to reduce
+                        active cooldowns by 4s. Cooldown: 4s.
+                    </td>
+                </tr>
+            </table>
+            <button class="buttons" onclick="backpackTalentsButton()">BACKPACK</button>
+            <table class="tables" id="backpackTalentsTable">
+                <tr>
+                    <th>ICON</th>
+                    <th>NAME</th>
+                    <th>TALENT</th>
+                </tr>
+                <tr>
+                    <td>Picture goes here.</td>
+                    <td>Combined Arms</td>
+                    <td>
+                        Shooting an enemy increases total skill
+                        damage by 25% for 3s.
+                    </td>
+                </tr>
+            </table>
+        </section>
 </body>
 
 </html>
