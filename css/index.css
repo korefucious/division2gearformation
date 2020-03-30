@@ -1,171 +1,85 @@
-
-/* GENERAL */
 * {
-  color: orange;
-}
-
-body {
-  background-color: black;
+  max-width: 100%;
+  background-color: #1d1d1d;
+  color: #ff6a13;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  border: none;
 }
-
-.body-container {
-  width: 100%;
+html {
+  font-size: 62.5%;
 }
-
+h1 {
+  font-size: 5rem;
+}
+button {
+  font-size: 2rem;
+}
+p {
+  font-size: 2rem;
+}
 a {
+  font-size: 2rem;
   text-decoration: none;
 }
-
-/* Main Navigation */
 header {
-  background-color: #1d1d1d;
+  width: 100%;
 }
-/* TOP NAV */
-.top-nav {
+header nav {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 1%;
-  background-color: #1d1d1d;
-  
+  flex-flow: none;
 }
-
-.title-img {
-  height: 100px;
+header nav .dropdown {
+  position: relative;
+  width: 10%;
 }
-
-.navLine {
-  border: 1px dashed white;
-  height: 15px;
+header nav .dropdown:hover .dropdown-content {
+  display: block;
 }
-
-/* DROPDOWN */
-
-.dropdown-button {
-  background-color: black;
+header nav .dropdown button {
+  padding: 10%;
+  width: 100%;
   border: 1px solid white;
-  padding: 15px;
-  transition: 1s;
 }
-
-.dropdown-content {
+header nav .dropdown .dropdown-content {
   display: none;
   position: absolute;
-  background-color: black;
-}
-
-.dropdown-content a {
+  width: 200%;
   border: 1px solid white;
-  padding: 15px;
-  text-decoration: none;
+}
+header nav .dropdown .dropdown-content a {
+  width: 100%;
+  padding: 5%;
   display: block;
+  border: 1px solid white;
   transition: 1s;
 }
-
-.dropdown-content a:hover {
-  background-color: darkslategray;
-  text-shadow: 2px 2px black;
-  text-shadow: 3px 3px 3px black;
-  font-size: 20px;
-  padding: 20px;
+header nav .dropdown .dropdown-content a:hover {
+  margin-left: 30%;
   transition: 1s;
 }
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  z-index: 1;
+header .banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: none;
+  padding: 1%;
+  width: 100%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
-
-.dropdown:hover .dropdown-button {
-  background-color: darkslategray;
-  padding: 25px;
-  text-shadow: 2px 2px black;
-  text-shadow: 3px 3px 3px black;
-  transition: 1s;
-}
-
-/* CONTENT */
-
-/* CONTENT CONTAINERS */
-.content {
+footer {
   display: flex;
   justify-content: center;
-  margin: 1%;
-}
-
-.content-container {
-  width: 80%;
-}
-
-#named-weapons {
-  display: flex;
-  flex-direction: column;
+  align-items: center;
+  flex-flow: none;
   width: 100%;
-}
-
-.row {
-  display: flex;
-}
-
-#last-row {
-  width: 50%;
-}
-
-/* HOME */
-.home-content h2 {
-  margin: 5%;
-}
-
-.home-content h3 {
-  word-spacing: 5px;
-}
-
-/* TABLES */
-.tables {
-  border-collapse: collapse;
-  width: 100%;
-  border: 5px solid white;
-  margin: 1%;
-}
-
-.tables td {
-  padding: 3%;
-  border: 1px solid white;
-}
-
-.tables tr:hover td {
-  background-color: dimgray;
-  color: gold;
-  text-shadow: 2px 2px black;
-  text-shadow: 3px 3px 3px black;
-}
-
-.tables th {
-  position: sticky;
-  top: 0;
-  border: 1px solid white;
-  padding: 12px;
-  text-align: center;
-  background-color: darkslategray;
-  font-size: 20px;
-}
-
-.tables h3 {
-  text-decoration: underline;
-}
-
-.tables p {
-  margin: 2%;
-}
-
-/* WEAPON ATTRIBUTES */
-.wpn-attr-h2 {
-  margin: 5%;
-  text-decoration: underline;
-}
-
-li {
-  font-size: large;
+  position: fixed;
+  bottom: 0;
   padding: 1%;
+  border-top: 1px solid white;
 }
