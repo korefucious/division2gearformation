@@ -110,6 +110,7 @@ header .banner h1 {
 }
 .content .tables th h2 {
   background-color: darkslategray;
+  padding: 1%;
 }
 .content .tables td {
   border: 1px solid white;
