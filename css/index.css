@@ -160,6 +160,9 @@ header .banner h1 {
 .content .mods {
   width: 40%;
 }
+.content .set td {
+  width: 14%;
+}
 footer {
   display: flex;
   justify-content: center;

@@ -9,341 +9,377 @@
 </head>
 
 <body>
-    <div class="body-container">
-        <header>
-            <nav class="top-nav">
-                <div class="dropdown">
-                    <a href="/index.html">
-                        <button class="dropdown-button">
-                            HOME
-                        </button>
-                    </a>
-                </div>
-                <div class="navLine"></div>
-                <div class="dropdown">
-                    <button class="dropdown-button">WEAPONS</button>
-                    <div class="dropdown-content">
-                        <a href="/weapons/weaponattributes.html">ATTRIBUTES</a>
-                        <a href="/weapons/weapon-exotics.html">EXOTICS</a>
-                        <a href="/weapons/named-weapons.html">NAMED</a>
-                        <a href="/weapons/weapon-talents.html">TALENTS</a>
-                    </div>
-                </div>
-                <div class="navLine"></div>
-                <div class="dropdown">
-                    <button class="dropdown-button">GEAR</button>
-                    <div class="dropdown-content">
-                        <a href="/gear/gear-attributes.html">ATTRIBUTES</a>
-                        <a href="/gear/brandsets.html">BRAND SETS</a>
-                        <a href="/gear/gearmods.html">MODS</a>
-                        <a href="/gear/namedgear.html">NAMED</a>
-                        <a href="/gear/gear-sets.html">SET GEAR</a>
-                        <a href="/gear/geartalents.html">TALENTS</a>
-                    </div>
-                </div>
-                <div class="navLine"></div>
-                <div class="dropdown">
-                    <button class="dropdown-button">SKILLS</button>
-                    <div class="dropdown-content">
-                        <a href="/skills/chem.html">CHEM LAUNCHER</a>
-                        <a href="/skills/decoy.html">DECOY</a>
-                        <a href="/skills/drone.html">DRONE</a>
-                        <a href="/skills/firefly.html">FIREFLY</a>
-                        <a href="/skills/hive.html">HIVE</a>
-                        <a href="/skills/pulse.html">PULSE</a>
-                        <a href="/skills/seeker.html">SEEKER MINE</a>
-                        <a href="/skills/shield.html">SHIELD</a>
-                        <a href="/skills/shock.html">SHOCK TRAP</a>
-                        <a href="/skills/stickybomb.html">STICKY BOMB</a>
-                        <a href="/skills/turret.html">TURRET</a>
-                    </div>
-                </div>
-                <div class="navLine"></div>
-                <div class="dropdown">
-                    <button class="dropdown-button">SPECS</button>
-                    <div class="dropdown-content">
-                        <a href="/specs/demolition.html">DEMOLITIONIST</a>
-                        <a href="/specs/firewall.html">FIREWALL</a>
-                        <a href="/specs/gunner.html">GUNNER</a>
-                        <a href="/specs/sharpshooter.html">SHARPSHOOTER</a>
-                        <a href="/specs/survivalist.html">SURVIVALIST</a>
-                        <a href="/specs/technician.html">TECHNICIAN</a>
-                    </div>
-                </div>
-                <img class="title-img" src="/img/Div2logo.png">
-            </nav>
-        </header>
-        <hr>
-        <section class="content">
-            <div class="content-container">
-                <table class="tables">
-                    <tr>
-                        <th>NAME</th>
-                        <th>CORE</th>
-                        <th>2 PIECE BONUS</th>
-                        <th>3 PIECE BONUS</th>
-                        <th>4 PIECE BONUS</th>
-                        <th>BACKPACK TALENT</th>
-                        <th>CHEST TALENT</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h2>Hard Wired</h2>
-                        </td>
-                        <td>Skill Tier</td>
-                        <td>15% Cooldown Reduction</td>
-                        <td>15% Skill Damage /
-                            15% Skill Repair</td>
-                        <td>
-                            <h3>Feedback Loop</h3>
-                            <p>
-                                Whenever you use or cancel a skill, your other skill is automatically refreshed and
-                                increases total
-                                skill damage and repair by 10% for 20 seconds. This can occur at most once per 20
-                                seconds.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Short Circuit</h3>
-                            <p>
-                                Decreases Feedback Loop cooldown from 20 seconds to 10 seconds.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Positive Reinforcement</h3>
-                            <p>
-                                Increases Feedback Loop skill damage and repair bonus from 10% to 25%.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h2>Ongoing Directive</h2>
-                        </td>
-                        <td>Weapon Damage</td>
-                        <td>15% Status Effects</td>
-                        <td>20% Reload Speed</td>
-                        <td>
-                            <h3>Rules of Engagement</h3>
-                            <p>
-                                Killing a status affected enemy drops Hollow-Point Ammo.
-                                Hollow-Point Ammo amplifies weapon damage by 20% and applies Bleed on hit.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Emergency Requisition</h3>
-                            <p>
-                                Reloading your weapon automatically collects all combat resources (armor kits, ammo,
-                                grenades) within 40 meters.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Parabellum Rounds</h3>
-                            <p>
-                                Increases Hollow-Point Ammo damage to 35%.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h2>True Patriot</h2>
-                        </td>
-                        <td>Armor</td>
-                        <td>30% Ammo Capacity</td>
-                        <td>30% Magazine Size</td>
-                        <td>
-                            <h3>Red, White, and Blue</h3>
-                            <p>
-                                Enemies you shoot receive a stacking debuff of Red / White / Blue, cycling every 2
-                                seconds.
-
-                                Red: Amplifies the enemy's damage taken by 8%.
-                                White: Hitting the enemy restores you and your allies' armor by 5% (1s cooldown).
-                                Blue: Decreases the enemy's damage dealt by 8%.
-                            </p>
-                            <h3>Full Flag</h3>
-                            <p>
-                                Enemies that die while under the effect of all 3 debuffs create a 5 meter explosion,
-                                dealing damage equal to their total health and armor. (Explosion strength reduced on
-                                Named enemy
-                                deaths)
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Patriotic Boost</h3>
-                            <p>
-                                Increases Red / White / Blue debuff strength.
-
-                                Red: 8% to 12%.
-                                White: 5% to 8%.
-                                Blue: 8% to 12%.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Waving the Flag</h3>
-                            <p>
-                                Increases Red / White / Blue rotation speed to 1.5 seconds.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h2>Aces and Eights</h2>
-                        </td>
-                        <td>?</td>
-                        <td>15% Marksman Rifle Damage</td>
-                        <td>20% Headshot Damage</td>
-                        <td>
-                            <h3>Dead Man's Hand</h3>
-                            <p>
-                                Flip a card when landing shots with a Marksman Rifle.
-
-                                After 5 cards are flipped, the damage of your next shot is amplified by 30%.
-                                More shots are enhanced, the better the hand revealed.
-                                Four of a Kind: 4 shots.
-                                Full House: 3 shots.
-                                Aces and Eights: 2 shots.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Poker Face</h3>
-                            <p>
-                                Flip an additional Dead Man's Hand card on 1 shot.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>No Limit</h3>
-                            <p>
-                                Increases Dead Man's Hand damage bonus from 30% to 50%.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h2>Negotiator's Dilemma</h2>
-                        </td>
-                        <td>?</td>
-                        <td>15% Critical Hit Chance</td>
-                        <td>20% Critical Hit Damage</td>
-                        <td>
-                            <h3>Crowd Control</h3>
-                            <p>
-                                Critical hits mark enemies for 20 seconds, up to 3 marks total.
-
-                                When you critically hit a marked enemy, all other marked enemies take 60% of the damage
-                                dealt.
-
-                                Whenever a marked enemy dies, gain 2% critical hit damage, stacking up to 20 times,
-                                until combat ends.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Critical Measures</h3>
-                            <p>
-                                Increases Crowd Control damage to additional marked enemies from 60% to 100%.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Target Rich Environment</h3>
-                            <p>
-                                Increases Crowd Control mark count from 3 to 5.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h2>Tip of the Spear</h2>
-                        </td>
-                        <td>?</td>
-                        <td>10% Signature Weapon Damage</td>
-                        <td>10% Weapon Damage</td>
-                        <td>
-                            <h3>Aggressive Recon</h3>
-                            <p>
-                                Specialization weapon kills increase total weapon damage by 20% for 60 seconds.
-
-                                Automatically generate specialization ammo every 60 seconds.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Crossbow Expert</h3>
-                            <p>
-                                Aggressive Recon generates an additional crossbow bolt every 60 seconds.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Specialized Destruction</h3>
-                            <p>
-                                Increases Aggressive Recon weapon damage bonus from 20% to 40%.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h2>Striker's Battlegear</h2>
-                        </td>
-                        <td>?</td>
-                        <td>15% Weapon Handling</td>
-                        <td>15% Rate of Fire</td>
-                        <td>
-                            <h3>Striker's Gamble</h3>
-                            <p>
-                                Weapon hits amplify total weapon damage by 0.5%, stacking up to 50 times.
-
-                                1 stack is lost each second.
-
-                                3 stacks are lost every time you miss.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Risk Management</h3>
-                            <p>
-                                Decreases stacks lost on missed shots for Striker's Gamble from 3 to 2.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Press the Advantage</h3>
-                            <p>
-                                Increase max stacks for Striker's Gamble from 50 to 100.
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h2>System Corruption</h2>
-                        </td>
-                        <td>?</td>
-                        <td>15% Armor on Kill</td>
-                        <td>
-                            <p>40% Disrupt Resistance</p>
-                            <p>40% Pulse Resistance</p>
-                        </td>
-                        <td>
-                            <h3>Hackstep Protocol</h3>
-                            <p>
-                                Replaces armor kits with an instant, infinite-use ability on a 20 seconds cooldown, that grants 50%
-                                bonus armor and hides your nameplate for 5 seconds.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Multithreaded Execution</h3>
-                            <p>
-                                Increases Hackstep Protocol bonus armor from 50% to 100%.
-                            </p>
-                        </td>
-                        <td>
-                            <h3>Compiler Optimization</h3>
-                            <p>
-                                Decreases Hackstep Protocol cooldown from 20 seconds to 15 seconds.
-                            </p>
-                        </td>
-                    </tr>
-                </table>
+    <header>
+        <nav>
+            <div class="dropdown">
+                <a href="/index.html">
+                    <button class="dropdown-button">
+                        HOME
+                    </button>
+                </a>
             </div>
-        </section>
-        <footer>
-        </footer>
-    </div>
+
+            <div class="dropdown">
+                <button class="dropdown-button">WEAPONS</button>
+                <div class="dropdown-content">
+                    <a href="/weapons/weaponattributes.html">ATTRIBUTES</a>
+                    <a href="/weapons/weapon-exotics.html">EXOTICS</a>
+                    <a href="/weapons/named-weapons.html">NAMED</a>
+                    <a href="/weapons/weapon-talents.html">TALENTS</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropdown-button">GEAR</button>
+                <div class="dropdown-content">
+                    <a href="/gear/gear-attributes.html">ATTRIBUTES</a>
+                    <a href="/gear/brandsets.html">BRAND SETS</a>
+                    <a href="/gear/gearmods.html">MODS</a>
+                    <a href="/gear/namedgear.html">NAMED</a>
+                    <a href="/gear/gear-sets.html">SET GEAR</a>
+                    <a href="/gear/geartalents.html">TALENTS</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropdown-button">SKILLS</button>
+                <div class="dropdown-content">
+                    <a href="/skills/chem.html">CHEM LAUNCHER</a>
+                    <a href="/skills/decoy.html">DECOY</a>
+                    <a href="/skills/drone.html">DRONE</a>
+                    <a href="/skills/firefly.html">FIREFLY</a>
+                    <a href="/skills/hive.html">HIVE</a>
+                    <a href="/skills/pulse.html">PULSE</a>
+                    <a href="/skills/seeker.html">SEEKER MINE</a>
+                    <a href="/skills/shield.html">SHIELD</a>
+                    <a href="/skills/shock.html">SHOCK TRAP</a>
+                    <a href="/skills/stickybomb.html">STICKY BOMB</a>
+                    <a href="/skills/turret.html">TURRET</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropdown-button">SPECS</button>
+                <div class="dropdown-content">
+                    <a href="/specs/demolition.html">DEMOLITIONIST</a>
+                    <a href="/specs/firewall.html">FIREWALL</a>
+                    <a href="/specs/gunner.html">GUNNER</a>
+                    <a href="/specs/sharpshooter.html">SHARPSHOOTER</a>
+                    <a href="/specs/survivalist.html">SURVIVALIST</a>
+                    <a href="/specs/technician.html">TECHNICIAN</a>
+                </div>
+            </div>
+            <div>
+                <img class="title-img" src="/img/Div2logo.png">
+            </div>
+        </nav>
+        <div class="banner">
+            <h1>PURPOSE:</h1>
+            <p>
+                To collect all relevant information for Division 2 that is the most up to date for the current state of
+                the game,
+                so that you can make decisions for making a build.
+            </p>
+        </div>
+    </header>
+    <section class="content">
+        <table class="tables set">
+            <tr>
+                <th>
+                    <h2>
+                        NAME
+                    </h2>
+                </th>
+                <th>
+                    <h2>
+                        CORE
+                    </h2>
+                </th>
+                <th>
+                    <h2>
+                        2 PIECE BONUS
+                    </h2>
+                </th>
+                <th>
+                    <h2>
+                        3 PIECE BONUS
+                    </h2>
+                </th>
+                <th>
+                    <h2>
+                        4 PIECE BONUS
+                    </h2>
+                </th>
+                <th>
+                    <h2>
+                        BACKPACK TALENT
+                    </h2>
+                </th>
+                <th>
+                    <h2>
+                        CHEST TALENT
+                    </h2>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Hard Wired:</h3>
+                </td>
+                <td>Skill Tier</td>
+                <td>15% Cooldown Reduction</td>
+                <td>15% Skill Damage /
+                    15% Skill Repair</td>
+                <td>
+                    <h4>Feedback Loop</h4>
+                    <p>
+                        Whenever you use or cancel a skill, your other skill is automatically refreshed and
+                        increases total
+                        skill damage and repair by 10% for 20 seconds. This can occur at most once per 20
+                        seconds.
+                    </p>
+                </td>
+                <td>
+                    <h4>Short Circuit</h4>
+                    <p>
+                        Decreases Feedback Loop cooldown from 20 seconds to 10 seconds.
+                    </p>
+                </td>
+                <td>
+                    <h4>Positive Reinforcement</h4>
+                    <p>
+                        Increases Feedback Loop skill damage and repair bonus from 10% to 25%.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Ongoing Directive:</h3>
+                </td>
+                <td>Weapon Damage</td>
+                <td>15% Status Effects</td>
+                <td>20% Reload Speed</td>
+                <td>
+                    <h4>Rules of Engagement</h4>
+                    <p>
+                        Killing a status affected enemy drops Hollow-Point Ammo.
+                        Hollow-Point Ammo amplifies weapon damage by 20% and applies Bleed on hit.
+                    </p>
+                </td>
+                <td>
+                    <h4>Emergency Requisition</h4>
+                    <p>
+                        Reloading your weapon automatically collects all combat resources (armor kits, ammo,
+                        grenades) within 40 meters.
+                    </p>
+                </td>
+                <td>
+                    <h4>Parabellum Rounds</h4>
+                    <p>
+                        Increases Hollow-Point Ammo damage to 35%.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>True Patriot:</h3>
+                </td>
+                <td>Armor</td>
+                <td>30% Ammo Capacity</td>
+                <td>30% Magazine Size</td>
+                <td>
+                    <h4>Red, White, and Blue</h4>
+                    <p>
+                        Enemies you shoot receive a stacking debuff of Red / White / Blue, cycling every 2
+                        seconds.
+
+                        Red: Amplifies the enemy's damage taken by 8%.
+                        White: Hitting the enemy restores you and your allies' armor by 5% (1s cooldown).
+                        Blue: Decreases the enemy's damage dealt by 8%.
+                    </p>
+                    <h4>Full Flag</h4>
+                    <p>
+                        Enemies that die while under the effect of all 3 debuffs create a 5 meter explosion,
+                        dealing damage equal to their total health and armor. (Explosion strength reduced on
+                        Named enemy
+                        deaths)
+                    </p>
+                </td>
+                <td>
+                    <h4>Patriotic Boost</h4>
+                    <p>
+                        Increases Red / White / Blue debuff strength.
+
+                        Red: 8% to 12%.
+                        White: 5% to 8%.
+                        Blue: 8% to 12%.
+                    </p>
+                </td>
+                <td>
+                    <h4>Waving the Flag</h4>
+                    <p>
+                        Increases Red / White / Blue rotation speed to 1.5 seconds.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Aces and Eights:</h3>
+                </td>
+                <td>?</td>
+                <td>15% Marksman Rifle Damage</td>
+                <td>20% Headshot Damage</td>
+                <td>
+                    <h4>Dead Man's Hand</h4>
+                    <p>
+                        Flip a card when landing shots with a Marksman Rifle.
+
+                        After 5 cards are flipped, the damage of your next shot is amplified by 30%.
+                        More shots are enhanced, the better the hand revealed.
+                        Four of a Kind: 4 shots.
+                        Full House: 3 shots.
+                        Aces and Eights: 2 shots.
+                    </p>
+                </td>
+                <td>
+                    <h4>Poker Face</h4>
+                    <p>
+                        Flip an additional Dead Man's Hand card on 1 shot.
+                    </p>
+                </td>
+                <td>
+                    <h4>No Limit</h4>
+                    <p>
+                        Increases Dead Man's Hand damage bonus from 30% to 50%.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Negotiator's Dilemma:</h3>
+                </td>
+                <td>?</td>
+                <td>15% Critical Hit Chance</td>
+                <td>20% Critical Hit Damage</td>
+                <td>
+                    <h4>Crowd Control</h4>
+                    <p>
+                        Critical hits mark enemies for 20 seconds, up to 3 marks total.
+
+                        When you critically hit a marked enemy, all other marked enemies take 60% of the damage
+                        dealt.
+
+                        Whenever a marked enemy dies, gain 2% critical hit damage, stacking up to 20 times,
+                        until combat ends.
+                    </p>
+                </td>
+                <td>
+                    <h4>Critical Measures</h4>
+                    <p>
+                        Increases Crowd Control damage to additional marked enemies from 60% to 100%.
+                    </p>
+                </td>
+                <td>
+                    <h4>Target Rich Environment</h4>
+                    <p>
+                        Increases Crowd Control mark count from 3 to 5.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Tip of the Spear:</h3>
+                </td>
+                <td>?</td>
+                <td>10% Signature Weapon Damage</td>
+                <td>10% Weapon Damage</td>
+                <td>
+                    <h4>Aggressive Recon</h4>
+                    <p>
+                        Specialization weapon kills increase total weapon damage by 20% for 60 seconds.
+
+                        Automatically generate specialization ammo every 60 seconds.
+                    </p>
+                </td>
+                <td>
+                    <h4>Crossbow Expert</h4>
+                    <p>
+                        Aggressive Recon generates an additional crossbow bolt every 60 seconds.
+                    </p>
+                </td>
+                <td>
+                    <h4>Specialized Destruction</h4>
+                    <p>
+                        Increases Aggressive Recon weapon damage bonus from 20% to 40%.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Striker's Battlegear:</h3>
+                </td>
+                <td>?</td>
+                <td>15% Weapon Handling</td>
+                <td>15% Rate of Fire</td>
+                <td>
+                    <h4>Striker's Gamble</h4>
+                    <p>
+                        Weapon hits amplify total weapon damage by 0.5%, stacking up to 50 times.
+
+                        1 stack is lost each second.
+
+                        3 stacks are lost every time you miss.
+                    </p>
+                </td>
+                <td>
+                    <h4>Risk Management</h4>
+                    <p>
+                        Decreases stacks lost on missed shots for Striker's Gamble from 3 to 2.
+                    </p>
+                </td>
+                <td>
+                    <h4>Press the Advantage</h4>
+                    <p>
+                        Increase max stacks for Striker's Gamble from 50 to 100.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>System Corruption:</h3>
+                </td>
+                <td>?</td>
+                <td>15% Armor on Kill</td>
+                <td>
+                    <p>40% Disrupt Resistance</p>
+                    <p>40% Pulse Resistance</p>
+                </td>
+                <td>
+                    <h4>Hackstep Protocol</h4>
+                    <p>
+                        Replaces armor kits with an instant, infinite-use ability on a 20 seconds cooldown, that grants
+                        50%
+                        bonus armor and hides your nameplate for 5 seconds.
+                    </p>
+                </td>
+                <td>
+                    <h4>Multithreaded Execution</h4>
+                    <p>
+                        Increases Hackstep Protocol bonus armor from 50% to 100%.
+                    </p>
+                </td>
+                <td>
+                    <h4>Compiler Optimization</h4>
+                    <p>
+                        Decreases Hackstep Protocol cooldown from 20 seconds to 15 seconds.
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <p>GEARformation is not affiliated with Ubisoft or any of its partners. Any "The Division" name, logos and/or
+            images are registered trademarks of Ubisoft.</p>
+    </footer>
 </body>
 
 </html>
