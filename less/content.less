@@ -1,7 +1,7 @@
 .content {
-    .flex(space-around);
+  .flex(space-around);
   width: 100%;
-  padding: 4% 0;
+  padding: 5%;
 
   .tables {
     border: 5px solid white;
@@ -9,9 +9,16 @@
     tr {
       border: 1px solid white;
     }
+
+    tr {
+      &:hover {
+        background-color: dimgray;
+      }
+    }
+
     th {
+      font-size: 2rem;
       border: 1px solid white;
-      font-size: 5rem;
       padding: 1%;
       background-color: darkslategray;
       position: sticky;
@@ -20,26 +27,35 @@
 
       h2 {
         background-color: darkslategray;
-      }//closes h2
-    }//closes th
+      } //closes h2
+    } //closes th
     td {
       border: 1px solid white;
-      font-size: 2.5rem;
+      font-size: 2rem;
       padding: 1%;
+      text-align: center;
 
+      h4 {
+        text-decoration: underline;
+        text-align: left;
+      }
       p {
         margin: 1%;
+        text-align: left;
       } //closes p
     } //closes td
   } //closes tables
 
   .weaponAttributes {
     .flex(@flow: column);
+    padding: 1%;
+    border: 1px solid white;
+
     h2 {
       font-size: 4rem;
       text-decoration: underline;
+      
       margin-bottom: 3%;
-    }
-  }
-  
+    } //closes h2
+  } // closes weapon attributes
 } //closes content

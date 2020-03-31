@@ -87,7 +87,7 @@ header .banner h1 {
   align-items: center;
   flex-flow: none;
   width: 100%;
-  padding: 4% 0;
+  padding: 5%;
 }
 .content .tables {
   border: 5px solid white;
@@ -95,9 +95,12 @@ header .banner h1 {
 .content .tables tr {
   border: 1px solid white;
 }
+.content .tables tr:hover {
+  background-color: dimgray;
+}
 .content .tables th {
+  font-size: 2rem;
   border: 1px solid white;
-  font-size: 5rem;
   padding: 1%;
   background-color: darkslategray;
   position: sticky;
@@ -109,17 +112,25 @@ header .banner h1 {
 }
 .content .tables td {
   border: 1px solid white;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 1%;
+  text-align: center;
+}
+.content .tables td h4 {
+  text-decoration: underline;
+  text-align: left;
 }
 .content .tables td p {
   margin: 1%;
+  text-align: left;
 }
 .content .weaponAttributes {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  padding: 1%;
+  border: 1px solid white;
 }
 .content .weaponAttributes h2 {
   font-size: 4rem;
@@ -132,8 +143,10 @@ footer {
   align-items: center;
   flex-flow: none;
   width: 100%;
-  position: fixed;
-  bottom: 0;
   padding: 1%;
   border-top: 1px solid white;
+}
+.fixed {
+  position: fixed;
+  bottom: 0;
 }
