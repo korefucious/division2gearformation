@@ -138,6 +138,9 @@ header .banner h1 {
   text-decoration: underline;
   margin-bottom: 3%;
 }
+.content .named td {
+  width: 25%;
+}
 .content .talents td {
   width: 10%;
 }
