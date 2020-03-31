@@ -148,6 +148,9 @@ header .banner h1 {
 .content .attributes td {
   width: 50%;
 }
+.content .mods {
+  width: 40%;
+}
 footer {
   display: flex;
   justify-content: center;
