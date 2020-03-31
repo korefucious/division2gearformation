@@ -11,12 +11,14 @@ header {
         .flex(space-around);
 
         .dropdown {
+            display: block;
             position: relative;
             width: 10%;
 
             &:hover {
                 .dropdown-content {
                     display: block;
+                    width: 200px;
                 } //close dropdown content
             } //closes dropdown hover
             button {
@@ -33,13 +35,14 @@ header {
                 z-index: 1;
                 a {
                     width:100%;
+                    text-align: center;
                     padding: 5%;
                     display: block;
                     border: 1px solid white;
                     transition: 1s;
 
                     &:hover {
-                        padding: 10%;
+                        padding: 10% 5%;
                         font-weight: bolder;
                         background-color: darkslategray;
                         transition: 1s;
