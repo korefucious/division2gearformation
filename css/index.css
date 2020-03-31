@@ -144,6 +144,9 @@ header .banner h1 {
 .content .talents td {
   width: 10%;
 }
+.content .attributes td {
+  width: 50%;
+}
 footer {
   display: flex;
   justify-content: center;
