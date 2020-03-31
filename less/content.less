@@ -1,10 +1,10 @@
 .content {
     .flex(space-around);
   width: 100%;
-  padding: 5%;
+  padding: 4% 0;
 
   .tables {
-    border: 1px solid white;
+    border: 5px solid white;
 
     tr {
       border: 1px solid white;
@@ -17,11 +17,29 @@
       position: sticky;
       top: 0;
       z-index: 0;
-    }
+
+      h2 {
+        background-color: darkslategray;
+      }//closes h2
+    }//closes th
     td {
       border: 1px solid white;
       font-size: 2.5rem;
       padding: 1%;
-    }
+
+      p {
+        margin: 1%;
+      } //closes p
+    } //closes td
   } //closes tables
+
+  .weaponAttributes {
+    .flex(@flow: column);
+    h2 {
+      font-size: 4rem;
+      text-decoration: underline;
+      margin-bottom: 3%;
+    }
+  }
+  
 } //closes content

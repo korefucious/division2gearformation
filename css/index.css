@@ -13,9 +13,6 @@ html {
 h1 {
   font-size: 4rem;
 }
-h2 {
-  font-size: 5rem;
-}
 button {
   font-size: 2rem;
 }
@@ -90,10 +87,10 @@ header .banner h1 {
   align-items: center;
   flex-flow: none;
   width: 100%;
-  padding: 5%;
+  padding: 4% 0;
 }
 .content .tables {
-  border: 1px solid white;
+  border: 5px solid white;
 }
 .content .tables tr {
   border: 1px solid white;
@@ -107,10 +104,27 @@ header .banner h1 {
   top: 0;
   z-index: 0;
 }
+.content .tables th h2 {
+  background-color: darkslategray;
+}
 .content .tables td {
   border: 1px solid white;
   font-size: 2.5rem;
   padding: 1%;
+}
+.content .tables td p {
+  margin: 1%;
+}
+.content .weaponAttributes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.content .weaponAttributes h2 {
+  font-size: 4rem;
+  text-decoration: underline;
+  margin-bottom: 3%;
 }
 footer {
   display: flex;
