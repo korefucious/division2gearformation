@@ -11,7 +11,6 @@ header {
         .flex(space-around);
 
         .dropdown {
-            display: block;
             position: relative;
             width: 10%;
 
@@ -22,9 +21,14 @@ header {
                 } //close dropdown content
             } //closes dropdown hover
             button {
-                padding: 10%;
+                padding: 5%;
                 width: 100%;
                 border: 1px solid white;
+
+                &:hover {
+                    background-color: darkslategray;
+                    transition: 1s;
+                }
             } //closes button
 
             .dropdown-content {
@@ -51,7 +55,9 @@ header {
             } //close dropdown content
         }// close dropdown
         
-        
+        img {
+            margin: 1%;
+        }
     } //close nav
 
     .banner {

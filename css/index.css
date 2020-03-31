@@ -37,7 +37,6 @@ header nav {
   flex-flow: none;
 }
 header nav .dropdown {
-  display: block;
   position: relative;
   width: 10%;
 }
@@ -46,9 +45,13 @@ header nav .dropdown:hover .dropdown-content {
   width: 200px;
 }
 header nav .dropdown button {
-  padding: 10%;
+  padding: 5%;
   width: 100%;
   border: 1px solid white;
+}
+header nav .dropdown button:hover {
+  background-color: darkslategray;
+  transition: 1s;
 }
 header nav .dropdown .dropdown-content {
   display: none;
@@ -70,6 +73,9 @@ header nav .dropdown .dropdown-content a:hover {
   font-weight: bolder;
   background-color: darkslategray;
   transition: 1s;
+}
+header nav img {
+  margin: 1%;
 }
 header .banner {
   display: flex;
