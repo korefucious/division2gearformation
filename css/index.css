@@ -85,12 +85,13 @@ header .banner h1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-flow: none;
+  flex-flow: wrap;
   width: 100%;
   padding: 5%;
 }
 .content .tables {
   border: 5px solid white;
+  margin: 1%;
 }
 .content .tables tr {
   border: 1px solid white;
