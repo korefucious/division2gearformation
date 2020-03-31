@@ -101,6 +101,10 @@ header .banner h1 {
   width: 100%;
   padding: 5%;
 }
+.content img {
+  border: 1px solid white;
+  border-radius: 10px;
+}
 .content .tables {
   border: 5px solid white;
   border-radius: 10px;
@@ -167,6 +171,12 @@ header .banner h1 {
 }
 .content .set td {
   width: 14%;
+}
+.content .gTalents .icon {
+  width: 10%;
+}
+.content .gTalents .name {
+  width: 20;
 }
 footer {
   display: flex;
