@@ -178,6 +178,27 @@ header .banner h1 {
 .content .gTalents .name {
   width: 20%;
 }
+.content .specContainer {
+  width: 100%;
+  display: grid;
+  grid-gap: 1%;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  margin-bottom: 5%;
+}
+.content .specContainer .specItem {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: none;
+  text-align: center;
+  font-size: 2rem;
+}
+.content .specContainer .specCenter {
+  grid-column: span 2;
+  grid-row: span 2;
+}
 footer {
   display: flex;
   justify-content: center;

@@ -111,4 +111,30 @@
       width: 20%;
     }
   } //closes gTalents
+
+  .specContainer {
+    width: 100%;
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    margin-bottom: 5%;
+
+    .specItem {
+      border: 1px solid white;
+      .flex();
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .specCenter {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .empty {
+      // border: none;
+    }
+
+  }
 } //closes content
