@@ -188,6 +188,7 @@ header .banner h1 {
 }
 .content .specContainer .specItem {
   border: 1px solid white;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,6 +199,31 @@ header .banner h1 {
 .content .specContainer .specCenter {
   grid-column: span 2;
   grid-row: span 2;
+  border: none;
+}
+.content .specContainer .specCenter img {
+  width: 100%;
+}
+.content .specContainer .empty {
+  border: none;
+}
+.content .specContainer .outer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20%;
+}
+.content .specContainer .outer .inner {
+  height: 80%;
+}
+.content .specContainer .outer .left {
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-top-right-radius: 200px;
+}
+.content .specContainer .outer .right {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-top-left-radius: 200px;
 }
 footer {
   display: flex;
