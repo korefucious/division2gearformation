@@ -182,8 +182,8 @@ header .banner h1 {
   width: 100%;
   display: grid;
   grid-gap: 1%;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 0.5fr);
+  grid-template-rows: repeat(6, 0.5fr);
   margin-bottom: 5%;
 }
 .content .specContainer .specItem {
@@ -192,8 +192,21 @@ header .banner h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: none;
+  flex-flow: column;
   text-align: center;
+  font-size: 2rem;
+  padding: 5%;
+}
+.content .specContainer .specItem h3 {
+  text-decoration: underline;
+  margin-bottom: 5%;
+}
+.content .specContainer .specItem h4 {
+  text-decoration: underline;
+  margin: 5%;
+}
+.content .specContainer .specItem li {
+  list-style-position: inside;
   font-size: 2rem;
 }
 .content .specContainer .specCenter {
