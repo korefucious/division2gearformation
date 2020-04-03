@@ -75,10 +75,10 @@ header {
   border-radius: 5px;
   text-align: center;
   transition: 1s;
-  overflow: hidden;
 }
 .navContainer nav .dropdown .dropdown-content a:hover {
   background-color: darkslategray;
+  padding: 20px 10px;
   transition: 1s;
 }
 .banner {
@@ -94,30 +94,22 @@ header {
 .banner h1 {
   margin-right: 1%;
 }
-.content {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: wrap;
+.hero {
   width: 100%;
-  padding: 5%;
+  height: 71vh;
 }
-.content img {
-  border: 1px solid white;
-  border-radius: 10px;
-}
-.content .tables {
+.tables {
   border: 5px solid white;
   border-radius: 10px;
   margin: 1%;
 }
-.content .tables tr {
+.tables tr {
   border: 1px solid white;
 }
-.content .tables tr:hover {
+.tables tr:hover {
   background-color: dimgray;
 }
-.content .tables th {
+.tables th {
   font-size: 2rem;
   border: 1px solid white;
   padding: 1%;
@@ -126,46 +118,46 @@ header {
   top: 0;
   z-index: 0;
 }
-.content .tables th h2 {
+.tables th h2 {
   background-color: darkslategray;
   padding: 1%;
 }
-.content .tables td {
+.tables td {
   border: 1px solid white;
   font-size: 2rem;
   padding: 1%;
   text-align: center;
 }
-.content .tables td h4 {
+.tables td h4 {
   text-decoration: underline;
   text-align: left;
 }
-.content .tables td p {
+.tables td p {
   margin: 1%;
   text-align: left;
 }
-.content .named td {
+.named td {
   width: 20%;
 }
-.content .talents td {
+.talents td {
   width: 10%;
 }
-.content .attributes td {
+.attributes td {
   width: 50%;
 }
-.content .mods {
+.mods {
   width: 40%;
 }
-.content .set td {
+.set td {
   width: 14%;
 }
-.content .gTalents .icon {
+.gTalents .icon {
   width: 10%;
 }
-.content .gTalents .name {
+.gTalents .name {
   width: 20%;
 }
-.content .specContainer {
+.specContainer {
   width: 100%;
   display: grid;
   grid-gap: 1%;
@@ -173,7 +165,7 @@ header {
   grid-template-rows: repeat(6, 0.5fr);
   margin-bottom: 5%;
 }
-.content .specContainer .specItem {
+.specContainer .specItem {
   border: 2px solid white;
   border-radius: 10px;
   display: flex;
@@ -184,44 +176,44 @@ header {
   font-size: 2rem;
   padding: 5%;
 }
-.content .specContainer .specItem h3 {
+.specContainer .specItem h3 {
   text-decoration: underline;
   margin-bottom: 5%;
 }
-.content .specContainer .specItem h4 {
+.specContainer .specItem h4 {
   text-decoration: underline;
   margin: 5%;
 }
-.content .specContainer .specItem li {
+.specContainer .specItem li {
   list-style-position: inside;
   font-size: 2rem;
 }
-.content .specContainer .specCenter {
+.specContainer .specCenter {
   grid-column: span 2;
   grid-row: span 2;
   border: none;
 }
-.content .specContainer .specCenter img {
+.specContainer .specCenter img {
   width: 100%;
   height: 100%;
 }
-.content .specContainer .empty {
+.specContainer .empty {
   border: none;
 }
-.content .specContainer .outer {
+.specContainer .outer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20%;
 }
-.content .specContainer .outer .inner {
+.specContainer .outer .inner {
   height: 80%;
 }
-.content .specContainer .outer .left {
+.specContainer .outer .left {
   border-top: 1px solid white;
   border-right: 1px solid white;
   border-top-right-radius: 200px;
 }
-.content .specContainer .outer .right {
+.specContainer .outer .right {
   border-top: 1px solid white;
   border-left: 1px solid white;
   border-top-left-radius: 200px;

@@ -1,168 +1,157 @@
-.content {
-  .flex(space-around, @flow: wrap);
-  width: 100%;
-  padding: 5%;
 
-  ////// home page img ////
-  img {
+.tables {
+  border: 5px solid white;
+  border-radius: 10px;
+  margin: 1%;
+
+  tr {
     border: 1px solid white;
-    border-radius: 10px;
   }
 
-  .tables {
-    border: 5px solid white;
-    border-radius: 10px;
-    margin: 1%;
-
-    tr {
-      border: 1px solid white;
+  tr {
+    &:hover {
+      background-color: dimgray;
     }
+  }
 
-    tr {
-      &:hover {
-        background-color: dimgray;
-      }
-    }
+  th {
+    font-size: 2rem;
+    border: 1px solid white;
+    padding: 1%;
+    background-color: darkslategray;
+    position: sticky;
+    top: 0;
+    z-index: 0;
 
-    th {
-      font-size: 2rem;
-      border: 1px solid white;
-      padding: 1%;
+    h2 {
       background-color: darkslategray;
-      position: sticky;
-      top: 0;
-      z-index: 0;
-
-      h2 {
-        background-color: darkslategray;
-        padding: 1%;
-      } //closes h2
-    } //closes th
-    td {
-      border: 1px solid white;
-      font-size: 2rem;
       padding: 1%;
-      text-align: center;
+    } //closes h2
+  } //closes th
+  td {
+    border: 1px solid white;
+    font-size: 2rem;
+    padding: 1%;
+    text-align: center;
 
-      h4 {
-        text-decoration: underline;
-        text-align: left;
-      }
-      p {
-        margin: 1%;
-        text-align: left;
-      } //closes p
-    } //closes td
-  } //closes tables
-
-  ////for named weapons
-  .named {
-    td {
-      width: 20%;
+    h4 {
+      text-decoration: underline;
+      text-align: left;
     }
+    p {
+      margin: 1%;
+      text-align: left;
+    } //closes p
+  } //closes td
+} //closes tables
+
+////for named weapons
+.named {
+  td {
+    width: 20%;
   }
+}
 
-  //for weapon talents
-  .talents {
-    td {
-      width: 10%;
-    }
+//for weapon talents
+.talents {
+  td {
+    width: 10%;
   }
+}
 
-  //for gear attributes
-  .attributes {
-    td {
-      width: 50%;
-    }
+//for gear attributes
+.attributes {
+  td {
+    width: 50%;
   }
+}
 
-  //gear mods
-  .mods {
-    width: 40%;
+//gear mods
+.mods {
+  width: 40%;
+}
+
+//for set gear
+.set {
+  td {
+    width: 14%;
   }
+}
 
-  //for set gear
-  .set {
-    td {
-      width: 14%;
-    }
+//gear talents
+.gTalents {
+  .icon {
+    width: 10%;
   }
+  .name {
+    width: 20%;
+  }
+} //closes gTalents
 
-  //gear talents
-  .gTalents {
-    .icon {
-      width: 10%;
+.specContainer {
+  width: 100%;
+  display: grid;
+  grid-gap: 1%;
+  grid-template-columns: repeat(7, 0.5fr);
+  grid-template-rows: repeat(6, 0.5fr);
+  margin-bottom: 5%;
+
+  .specItem {
+    border: 2px solid white;
+    border-radius: 10px;
+    .flex(@flow: column);
+    text-align: center;
+    font-size: 2rem;
+    padding: 5%;
+    // background-color: darkslategray;
+
+    h3 {
+      text-decoration: underline;
+      margin-bottom: 5%;
     }
-    .name {
-      width: 20%;
+    h4 {
+      text-decoration: underline;
+      margin: 5%;
     }
-  } //closes gTalents
-
-  .specContainer {
-    width: 100%;
-    display: grid;
-    grid-gap: 1%;
-    grid-template-columns: repeat(7, 0.5fr);
-    grid-template-rows: repeat(6, 0.5fr);
-    margin-bottom: 5%;
-
-    .specItem {
-      border: 2px solid white;
-      border-radius: 10px;
-      .flex(@flow: column);
-      text-align: center;
+    li {
+      list-style-position: inside;
       font-size: 2rem;
-      padding: 5%;
-      // background-color: darkslategray;
-
-      h3 {
-        text-decoration: underline;
-        margin-bottom: 5%;
-      }
-      h4 {
-        text-decoration: underline;
-        margin: 5%;
-      }
-      li {
-        list-style-position: inside;
-        font-size: 2rem;
-      }
-    }
-
-    .specCenter {
-      grid-column: span 2;
-      grid-row: span 2;
-      border: none;
-
-      img {
-        width: 100%;
-        height: 100%;
-      }
-    }
-
-    .empty {
-      border: none;
-    }
-
-    .outer {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 20%;
-
-      .inner {
-        height: 80%;
-      }
-
-      .left {
-        border-top: 1px solid white;
-        border-right: 1px solid white;
-        border-top-right-radius: 200px;
-      }
-      .right {
-        border-top: 1px solid white;
-        border-left: 1px solid white;
-        border-top-left-radius: 200px;
-      }
     }
   }
-} //closes content
+
+  .specCenter {
+    grid-column: span 2;
+    grid-row: span 2;
+    border: none;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .empty {
+    border: none;
+  }
+
+  .outer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20%;
+
+    .inner {
+      height: 80%;
+    }
+
+    .left {
+      border-top: 1px solid white;
+      border-right: 1px solid white;
+      border-top-right-radius: 200px;
+    }
+    .right {
+      border-top: 1px solid white;
+      border-left: 1px solid white;
+      border-top-left-radius: 200px;
+    }
+  }
+}
