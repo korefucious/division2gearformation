@@ -11,6 +11,9 @@ html {
   font-size: 62.5%;
 }
 h1 {
+  font-size: 6rem;
+}
+h2 {
   font-size: 4rem;
 }
 button {
@@ -35,6 +38,41 @@ header {
 }
 .content {
   max-height: 100%;
+}
+.tables {
+  border: 5px solid white;
+  border-radius: 10px;
+  margin: 1%;
+}
+.tables tr {
+  border: 1px solid white;
+}
+.tables tr:hover {
+  background-color: dimgray;
+}
+.tables th {
+  font-size: 2rem;
+  border: 1px solid white;
+  padding: 1%;
+  background-color: darkslategray;
+  z-index: 0;
+}
+.tables th h2 {
+  background-color: darkslategray;
+}
+.tables td {
+  border: 1px solid white;
+  font-size: 2rem;
+  padding: 1%;
+  text-align: center;
+}
+.tables td h4 {
+  text-decoration: underline;
+  text-align: left;
+}
+.tables td p {
+  margin: 1%;
+  text-align: left;
 }
 .navContainer {
   display: flex;
@@ -153,44 +191,6 @@ header {
   width: 100%;
   height: 100%;
 }
-.tables {
-  border: 5px solid white;
-  border-radius: 10px;
-  margin: 1%;
-}
-.tables tr {
-  border: 1px solid white;
-}
-.tables tr:hover {
-  background-color: dimgray;
-}
-.tables th {
-  font-size: 2rem;
-  border: 1px solid white;
-  padding: 1%;
-  background-color: darkslategray;
-  position: sticky;
-  top: 0;
-  z-index: 0;
-}
-.tables th h2 {
-  background-color: darkslategray;
-  padding: 1%;
-}
-.tables td {
-  border: 1px solid white;
-  font-size: 2rem;
-  padding: 1%;
-  text-align: center;
-}
-.tables td h4 {
-  text-decoration: underline;
-  text-align: left;
-}
-.tables td p {
-  margin: 1%;
-  text-align: left;
-}
 .named td {
   width: 20%;
 }
@@ -275,17 +275,27 @@ header {
 }
 .weaponAttributes {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: none;
+  padding-top: 4%;
+}
+.weaponAttributes div {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 1%;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  padding: 1%;
-  border: 1px solid white;
-  border-radius: 10px;
 }
-.weaponAttributes h2 {
-  font-size: 4rem;
+.weaponAttributes div h2 {
   text-decoration: underline;
   margin-bottom: 3%;
+}
+.weaponAttributes div li {
+  list-style: square;
+  list-style-position: inside;
 }
 footer {
   display: flex;

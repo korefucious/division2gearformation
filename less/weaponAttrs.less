@@ -1,12 +1,21 @@
 .weaponAttributes {
-  .flex(@flow: column);
-  padding: 1%;
-  border: 1px solid white;
-  border-radius: 10px;
+  .flex(space-around);
+  padding-top: 4%;
 
-  h2 {
-    font-size: 4rem;
-    text-decoration: underline;
-    margin-bottom: 3%;
-  } //closes h2
+  div {
+    border: 1px solid @border;
+    border-radius: 10px;
+    padding: 1%;
+    .flex(@flow: column);
+
+    h2 {
+      text-decoration: underline;
+      margin-bottom: 3%;
+    } //closes h2
+    li {
+      list-style: square;
+      list-style-position: inside;
+    }
+  }
+  
 } // closes weapon attributes
