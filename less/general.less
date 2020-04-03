@@ -47,7 +47,6 @@ li {
 }
 ///////////////////////////HEADER/////////////////////
 
-
 //////////////////////////CONTENT///////////////////////
 .content {
   max-height: 100%;
@@ -55,11 +54,26 @@ li {
   .flex();
   background-color: darken(@main, 3%);
 }
+
+.singlePadding {
+  padding: 5%;
+}
 //////////TABLES///////////
+.sticky {
+  th {
+    position: sticky;
+    top: 0;
+  }
+}
+
+.single {
+  width: 80%;
+  margin: 3% 0;
+}
+
 .tables {
   border: 5px solid white;
   border-radius: 10px;
-  margin: 1%;
   background-color: @main;
 
   tr {
@@ -76,11 +90,11 @@ li {
     font-size: 2rem;
     border: 1px solid white;
     padding: 1%;
-    background-color: darkslategray;
+    background-color: @hover;
     z-index: 0;
 
     h2 {
-        background-color: @hover;
+      background-color: @hover;
     }
   } //closes th
   td {

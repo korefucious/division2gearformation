@@ -39,7 +39,8 @@
           border-radius: 5px;
 
           &:hover {
-            background-color: @hover;
+            background-color: darken(@hover, 5%);
+            color: lighten(@text, 10%);
             transition: 1s;
           }
         } //closes button
@@ -59,7 +60,8 @@
             transition: 1s;
 
             &:hover {
-              background-color: darkslategray;
+              background-color: darken(@hover, 5%);
+              color: lighten(@text, 10%);
               padding: 20px 10px;
               transition: 1s;
             } //closes link hover
