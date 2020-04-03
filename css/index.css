@@ -30,8 +30,7 @@ li {
   list-style: none;
 }
 header {
-  width: 100%;
-  box-shadow: 0px 5px 10px 0px white;
+  box-shadow: 0px 2px 10px 0px white;
 }
 .content {
   max-height: 100%;
@@ -43,12 +42,22 @@ header {
   flex-flow: none;
   width: 100%;
 }
+@media (max-width: 800px) {
+  .navContainer {
+    padding: 3%;
+  }
+}
 .navContainer nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: none;
   width: 100%;
+}
+@media (max-width: 800px) {
+  .navContainer nav {
+    width: 80%;
+  }
 }
 .navContainer nav .dropdown:hover .dropdown-content {
   display: flex;
@@ -84,6 +93,15 @@ header {
   padding: 20px 10px;
   transition: 1s;
 }
+.navContainer .logo {
+  padding: 1%;
+}
+@media (max-width: 800px) {
+  .navContainer .logo {
+    width: 20%;
+    padding: none;
+  }
+}
 .banner {
   display: flex;
   justify-content: center;
@@ -94,8 +112,18 @@ header {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
+@media (max-width: 800px) {
+  .banner {
+    padding: 3%;
+  }
+}
 .banner h1 {
   margin-right: 1%;
+}
+@media (max-width: 800px) {
+  .banner h1 {
+    font-size: 4rem;
+  }
 }
 .hero {
   width: 100%;
@@ -243,6 +271,7 @@ footer {
   width: 100%;
   padding: 1%;
   border-top: 1px solid white;
+  text-align: center;
 }
 .fixed {
   position: fixed;
