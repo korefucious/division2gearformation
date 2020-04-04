@@ -251,6 +251,12 @@ li {
 .namedWeapons th {
   width: 20%;
 }
+.wTalents {
+  width: 90%;
+}
+.wTalents th {
+  width: 10%;
+}
 .talents td {
   width: 10%;
 }
