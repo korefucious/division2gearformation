@@ -1,21 +1,21 @@
-.weaponAttributes {
-  .flex(space-around);
-  padding: 4%;
+.available {
+  border: 1px solid @border;
+  border-radius: 10px;
+  padding: 1%;
+  .flex(@flow: column);
+  background-color: @main;
 
-  div {
-    border: 1px solid @border;
-    border-radius: 10px;
-    padding: 1%;
-    .flex(@flow: column);
-    background-color: @main;
-
-    h2 {
-      text-decoration: underline;
-      margin-bottom: 3%;
-    } //closes h2
-    li {
-      list-style: square;
-      list-style-position: inside;
-    }
+  h2 {
+    text-decoration: underline;
+    margin-bottom: 3%;
+  } //closes h2
+  li {
+    list-style: square;
+    list-style-position: inside;
   }
-} // closes weapon attributes
+}
+
+.wAttrs {
+  width: 40%;
+  margin: 3%;
+}
