@@ -48,6 +48,12 @@ li {
 .singlePadding {
   padding: 5%;
 }
+.wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: wrap;
+}
 .sticky th {
   position: sticky;
   top: 0;
@@ -238,12 +244,6 @@ li {
   list-style: square;
   list-style-position: inside;
 }
-.wrap {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: wrap;
-}
 .namedWeapons {
   width: 80%;
   margin: 3% 0;
@@ -257,11 +257,10 @@ li {
 .wTalents th {
   width: 10%;
 }
-.talents td {
-  width: 10%;
-}
-.attributes td {
-  width: 50%;
+.gAttrs {
+  width: 40%;
+  height: 40vh;
+  margin: 2%;
 }
 .mods {
   width: 40%;

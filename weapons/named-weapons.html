@@ -1,763 +1,832 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>GEARformation: Division 2</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/css/index.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/css/index.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="navContainer">
-            <nav>
-                <div class="dropdown">
-                    <a href="/index.html">
-                        <button class="dropdown-button">
-                            HOME
-                        </button>
-                    </a>
-                </div>
-                <div class="dropdown">
-                    <button class="dropdown-button">WEAPONS</button>
-                    <div class="dropdown-content">
-                        <a href="/weapons/weaponattributes.html">ATTRIBUTES</a>
-                        <a href="/weapons/weapon-exotics.html">EXOTICS</a>
-                        <a href="/weapons/named-weapons.html">NAMED</a>
-                        <a href="/weapons/weapon-talents.html">TALENTS</a>
-                    </div>
-                </div>
-
-                <div class="dropdown">
-                    <button class="dropdown-button">GEAR</button>
-                    <div class="dropdown-content">
-                        <a href="/gear/gear-attributes.html">ATTRIBUTES</a>
-                        <a href="/gear/brandsets.html">BRAND SETS</a>
-                        <a href="/gear/exotic-gear.html">EXOTICS</a>
-                        <a href="/gear/gearmods.html">MODS</a>
-                        <a href="/gear/namedgear.html">NAMED</a>
-                        <a href="/gear/gear-sets.html">SET GEAR</a>
-                        <a href="/gear/geartalents.html">TALENTS</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropdown-button">SKILLS</button>
-                    <div class="dropdown-content">
-                        <a href="/skills/chem.html">CHEM LAUNCHER</a>
-                        <a href="/skills/decoy.html">DECOY</a>
-                        <a href="/skills/drone.html">DRONE</a>
-                        <a href="/skills/firefly.html">FIREFLY</a>
-                        <a href="/skills/hive.html">HIVE</a>
-                        <a href="/skills/pulse.html">PULSE</a>
-                        <a href="/skills/seeker.html">SEEKER MINE</a>
-                        <a href="/skills/shield.html">SHIELD</a>
-                        <a href="/skills/shock.html">SHOCK TRAP</a>
-                        <a href="/skills/stickybomb.html">STICKY BOMB</a>
-                        <a href="/skills/turret.html">TURRET</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropdown-button">SPECS</button>
-                    <div class="dropdown-content">
-                        <a href="/specs/demolition.html">DEMOLITIONIST</a>
-                        <a href="/specs/firewall.html">FIREWALL</a>
-                        <a href="/specs/gunner.html">GUNNER</a>
-                        <a href="/specs/sharpshooter.html">SHARPSHOOTER</a>
-                        <a href="/specs/survivalist.html">SURVIVALIST</a>
-                        <a href="/specs/technician.html">TECHNICIAN</a>
-                    </div>
-                </div>
-            </nav>
-            <div class="logo">
-                <img class="title-img" src="/img/Div2logo.png">
+      <div class="navContainer">
+        <nav>
+          <div class="dropdown">
+            <a href="/index.html">
+              <button class="dropdown-button">
+                HOME
+              </button>
+            </a>
+          </div>
+          <div class="dropdown">
+            <button class="dropdown-button">WEAPONS</button>
+            <div class="dropdown-content">
+              <a href="/weapons/weaponattributes.html">ATTRIBUTES</a>
+              <a href="/weapons/weapon-exotics.html">EXOTICS</a>
+              <a href="/weapons/named-weapons.html">NAMED</a>
+              <a href="/weapons/weapon-talents.html">TALENTS</a>
             </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropdown-button">GEAR</button>
+            <div class="dropdown-content">
+              <a href="/gear/gear-attributes.html">ATTRIBUTES</a>
+              <a href="/gear/brandsets.html">BRAND SETS</a>
+              <a href="/gear/exotic-gear.html">EXOTICS</a>
+              <a href="/gear/gearmods.html">MODS</a>
+              <a href="/gear/namedgear.html">NAMED</a>
+              <a href="/gear/gear-sets.html">SET GEAR</a>
+              <a href="/gear/geartalents.html">TALENTS</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropdown-button">SKILLS</button>
+            <div class="dropdown-content">
+              <a href="/skills/chem.html">CHEM LAUNCHER</a>
+              <a href="/skills/decoy.html">DECOY</a>
+              <a href="/skills/drone.html">DRONE</a>
+              <a href="/skills/firefly.html">FIREFLY</a>
+              <a href="/skills/hive.html">HIVE</a>
+              <a href="/skills/pulse.html">PULSE</a>
+              <a href="/skills/seeker.html">SEEKER MINE</a>
+              <a href="/skills/shield.html">SHIELD</a>
+              <a href="/skills/shock.html">SHOCK TRAP</a>
+              <a href="/skills/stickybomb.html">STICKY BOMB</a>
+              <a href="/skills/turret.html">TURRET</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropdown-button">SPECS</button>
+            <div class="dropdown-content">
+              <a href="/specs/demolition.html">DEMOLITIONIST</a>
+              <a href="/specs/firewall.html">FIREWALL</a>
+              <a href="/specs/gunner.html">GUNNER</a>
+              <a href="/specs/sharpshooter.html">SHARPSHOOTER</a>
+              <a href="/specs/survivalist.html">SURVIVALIST</a>
+              <a href="/specs/technician.html">TECHNICIAN</a>
+            </div>
+          </div>
+        </nav>
+        <div class="logo">
+          <img class="title-img" src="/img/Div2logo.png" />
         </div>
-        <div class="banner">
-            <h1>PURPOSE:</h1>
-            <p>
-                To collect all relevant information for Division 2 that is the most up to date for the current state of
-                the game,
-                so that you can make decisions for making a build.
-            </p>
-        </div>
+      </div>
+      <div class="banner">
+        <h1>PURPOSE:</h1>
+        <p>
+          To collect all relevant information for Division 2 that is the most up
+          to date for the current state of the game, so that you can make
+          decisions for making a build.
+        </p>
+      </div>
     </header>
     <section class="content wrap">
-        <table class="tables namedWeapons sticky">
-            <tr>
-                <th colspan="4">
-                    <h2>
-                        ASSAULT RIFLES
-                    </h2>
-                </th>
-            </tr>
-            <tr>
-                <th>NAME</th>
-                <th>VARIANT</th>
-                <th>PERFECT TALENT</th>
-                <th>DROP LOCATION</th>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Manic:</h3>
-                </td>
-                <td>AK-47</td>
-                <td>
-                    <h4>Perfectly Overflowing</h4>
-                    <p>Every 2 reloads from empty increases your base magazine capacity by 100%.</p>
-                </td>
-                <td>Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Invisible Hand:</h3>
-                </td>
-                <td>AUG</td>
-                <td>
-                    <h4>Perfect Allegro</h4>
-                    <p>Increase rate of fire by 12%.</p>
-                </td>
-                <td>Light Zone / Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Shield Splinterer:</h3>
-                </td>
-                <td>F2000</td>
-                <td>
-                    <h4>Perfect Optimist</h4>
-                    <p>Weapon damage is increased by 4% for every 10% ammo missing from the magazine.</p>
-                </td>
-                <td>Hunter Crate / Cassie Mendoza</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Burn Out:</h3>
-                </td>
-                <td>FAMAS</td>
-                <td>
-                    <h4>Perfect On Empty</h4>
-                    <p>Reloading from empty grants 40% weapon handling for 10 seconds.</p>
-                </td>
-                <td>Light Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Savage Wolverine:</h3>
-                </td>
-                <td>Honey Badger</td>
-                <td>
-                    <h4>Perfectly Close & Personal</h4>
-                    <p>Killing a target within 7 meters grants 38% weapon damage for 10 seconds.</p>
-                </td>
-                <td>Firewall Field Research</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Pyromaniac:</h3>
-                </td>
-                <td>M4</td>
-                <td>
-                    <h4>Perfectly Ignited</h4>
-                    <p>Deal 25% weapon damage to burning enemies. After 3 kills, applies burning to the next
-                        enemy
-                        you hit.</p>
-                </td>
-                <td>Light Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Glory Daze:</h3>
-                </td>
-                <td>P416</td>
-                <td>
-                    <h4>Perfectly Near Sighted</h4>
-                    <p>Receive 100% stability at the cost of 35% optimal range.</p>
-                </td>
-                <td>Light Zone / Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>The Railsplitter:</h3>
-                </td>
-                <td>TAR-21</td>
-                <td>
-                    <h4>Perfectly Accurate</h4>
-                    <p>Increase accuracy by 50%.</p>
-                </td>
-                <td>Dark Zone</td>
-            </tr>
-        </table>
-        <table class="tables namedWeapons sticky">
-            <tr>
-                <th colspan="4">
-                    <h2>
-                        LIGHT MACHINE GUNS
-                    </h2>
-                </th>
-            </tr>
-            <tr>
-                <th>NAME</th>
-                <th>VARIANT</th>
-                <th>PERFECT TALENT</th>
-                <th>DROP LOCATION</th>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Tabula Rasa:</h3>
-                </td>
-                <td>L86</td>
-                <td>
-                    <h4>Perfectly Steady Handed</h4>
-                    <p>Hits grant a stack of 1% accuracy and stability. </p>
-                    <p>At 75 stacks, consumes them to refill the magazine.Every 2 reloads from empty increases
-                        your
-                        base magazine capacity by 100%.</p>
-                </td>
-                <td>Light Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Black Friday:</h3>
-                </td>
-                <td>M249</td>
-                <td>
-                    <h4>Perfectly Unhinged</h4>
-                    <p>Receive 22% weapon damage at the cost of 25% stability and 25% accuracy.</p>
-                </td>
-                <td>Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Good Times:</h3>
-                </td>
-                <td>M60</td>
-                <td>
-                    <h4>Perfect Fast Hands</h4>
-                    <p>Critical hits add a stack of 8% reload speed bonus.</p>
-                    <p>Max stack is 40.</p>
-                </td>
-                <td>Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Sleipner:</h3>
-                </td>
-                <td>MG5</td>
-                <td>
-                    <h4>Perfect Frenzy</h4>
-                    <p>For every 8 bullets in the magazine capacity, gain 3% rate of fire and 3% weapon damage
-                        for 5
-                        seconds when
-                        reloading from empty.</p>
-                </td>
-                <td>Gunner Field Research</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Carnage:</h3>
-                </td>
-                <td>NEGEV</td>
-                <td>
-                    <h4>Perfect Sadist</h4>
-                    <p>Deal +25% weapon damage to bleeding enemies. After 3 kills, applies bleed to the next
-                        enemy
-                        you hit.</p>
-                </td>
-                <td>Light Zone / Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>New Reliable:</h3>
-                </td>
-                <td>RPK-74</td>
-                <td>
-                    <h4>Perfectly Optimized</h4>
-                    <p>Increase weapon handling by 30%.</p>
-                </td>
-                <td>Light Zone / Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Quiet Roar:</h3>
-                </td>
-                <td>Stoner LAMG</td>
-                <td>
-                    <h4>Perfect Overwhelm</h4>
-                    <p>Suppressing an enemy, that is not currently suppressed, grants 12% weapon damage for 12
-                        seconds.</p>
-                    <p>Max stack is 4.</p>
-                </td>
-                <td>Light Zone</td>
-            </tr>
-        </table>
+      <table class="tables namedWeapons sticky">
+        <tr>
+          <th colspan="4">
+            ASSAULT RIFLES
+          </th>
+        </tr>
+        <tr>
+          <th>NAME</th>
+          <th>VARIANT</th>
+          <th>PERFECT TALENT</th>
+          <th>DROP LOCATION</th>
+        </tr>
+        <tr>
+          <td>
+            <h3>Manic:</h3>
+          </td>
+          <td>AK-47</td>
+          <td>
+            <h4>Perfectly Overflowing</h4>
+            <p>
+              Every 2 reloads from empty increases your base magazine capacity
+              by 100%.
+            </p>
+          </td>
+          <td>Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Invisible Hand:</h3>
+          </td>
+          <td>AUG</td>
+          <td>
+            <h4>Perfect Allegro</h4>
+            <p>Increase rate of fire by 12%.</p>
+          </td>
+          <td>Light Zone / Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Shield Splinterer:</h3>
+          </td>
+          <td>F2000</td>
+          <td>
+            <h4>Perfect Optimist</h4>
+            <p>
+              Weapon damage is increased by 4% for every 10% ammo missing from
+              the magazine.
+            </p>
+          </td>
+          <td>Hunter Crate / Cassie Mendoza</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Burn Out:</h3>
+          </td>
+          <td>FAMAS</td>
+          <td>
+            <h4>Perfect On Empty</h4>
+            <p>
+              Reloading from empty grants 40% weapon handling for 10 seconds.
+            </p>
+          </td>
+          <td>Light Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Savage Wolverine:</h3>
+          </td>
+          <td>Honey Badger</td>
+          <td>
+            <h4>Perfectly Close & Personal</h4>
+            <p>
+              Killing a target within 7 meters grants 38% weapon damage for 10
+              seconds.
+            </p>
+          </td>
+          <td>Firewall Field Research</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Pyromaniac:</h3>
+          </td>
+          <td>M4</td>
+          <td>
+            <h4>Perfectly Ignited</h4>
+            <p>
+              Deal 25% weapon damage to burning enemies. After 3 kills, applies
+              burning to the next enemy you hit.
+            </p>
+          </td>
+          <td>Light Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Glory Daze:</h3>
+          </td>
+          <td>P416</td>
+          <td>
+            <h4>Perfectly Near Sighted</h4>
+            <p>Receive 100% stability at the cost of 35% optimal range.</p>
+          </td>
+          <td>Light Zone / Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>The Railsplitter:</h3>
+          </td>
+          <td>TAR-21</td>
+          <td>
+            <h4>Perfectly Accurate</h4>
+            <p>Increase accuracy by 50%.</p>
+          </td>
+          <td>Dark Zone</td>
+        </tr>
+      </table>
+      <table class="tables namedWeapons sticky">
+        <tr>
+          <th colspan="4">
+            LIGHT MACHINE GUNS
+          </th>
+        </tr>
+        <tr>
+          <th>NAME</th>
+          <th>VARIANT</th>
+          <th>PERFECT TALENT</th>
+          <th>DROP LOCATION</th>
+        </tr>
+        <tr>
+          <td>
+            <h3>Tabula Rasa:</h3>
+          </td>
+          <td>L86</td>
+          <td>
+            <h4>Perfectly Steady Handed</h4>
+            <p>Hits grant a stack of 1% accuracy and stability.</p>
+            <p>
+              At 75 stacks, consumes them to refill the magazine.Every 2 reloads
+              from empty increases your base magazine capacity by 100%.
+            </p>
+          </td>
+          <td>Light Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Black Friday:</h3>
+          </td>
+          <td>M249</td>
+          <td>
+            <h4>Perfectly Unhinged</h4>
+            <p>
+              Receive 22% weapon damage at the cost of 25% stability and 25%
+              accuracy.
+            </p>
+          </td>
+          <td>Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Good Times:</h3>
+          </td>
+          <td>M60</td>
+          <td>
+            <h4>Perfect Fast Hands</h4>
+            <p>Critical hits add a stack of 8% reload speed bonus.</p>
+            <p>Max stack is 40.</p>
+          </td>
+          <td>Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Sleipner:</h3>
+          </td>
+          <td>MG5</td>
+          <td>
+            <h4>Perfect Frenzy</h4>
+            <p>
+              For every 8 bullets in the magazine capacity, gain 3% rate of fire
+              and 3% weapon damage for 5 seconds when reloading from empty.
+            </p>
+          </td>
+          <td>Gunner Field Research</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Carnage:</h3>
+          </td>
+          <td>NEGEV</td>
+          <td>
+            <h4>Perfect Sadist</h4>
+            <p>
+              Deal +25% weapon damage to bleeding enemies. After 3 kills,
+              applies bleed to the next enemy you hit.
+            </p>
+          </td>
+          <td>Light Zone / Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>New Reliable:</h3>
+          </td>
+          <td>RPK-74</td>
+          <td>
+            <h4>Perfectly Optimized</h4>
+            <p>Increase weapon handling by 30%.</p>
+          </td>
+          <td>Light Zone / Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Quiet Roar:</h3>
+          </td>
+          <td>Stoner LAMG</td>
+          <td>
+            <h4>Perfect Overwhelm</h4>
+            <p>
+              Suppressing an enemy, that is not currently suppressed, grants 12%
+              weapon damage for 12 seconds.
+            </p>
+            <p>Max stack is 4.</p>
+          </td>
+          <td>Light Zone</td>
+        </tr>
+      </table>
 
-        <table class="tables namedWeapons sticky">
-            <tr>
-                <th colspan="4">
-                    <h2>
-                        MARKSMAN RIFLES
-                    </h2>
-                </th>
-            </tr>
-            <tr>
-                <th>NAME</th>
-                <th>VARIANT</th>
-                <th>PERFECT TALENT</th>
-                <th>DROP LOCATION</th>
-            </tr>
-            <tr>
-                <td>
-                    <h3>The White Death:</h3>
-                </td>
-                <td>M44</td>
-                <td>
-                    <h4>Headshot Damage</h4>
-                    <p>137%</p>
-                </td>
-                <td>Light Zone / Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Ekim's Long Stick:</h3>
-                </td>
-                <td>Model 700</td>
-                <td>
-                    <h4>Perfect Ranger</h4>
-                    <p>Amplifies weapon damage by 2% for every 4 meters you are away from the target.</p>
-                </td>
-                <td>Light Zone / Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>The Darkness:</h3>
-                </td>
-                <td>SCAR</td>
-                <td>
-                    <h4>Perfect Eyeless</h4>
-                    <p>Deal 25% weapon damage to blinded enemies. After 3 kills, applies blind to the next enemy
-                        you hit.</p>
-                </td>
-                <td>Light Zone / Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Designated Hitter:</h3>
-                </td>
-                <td>SR-1</td>
-                <td>
-                    <h4>Perfect Reformation</h4>
-                    <p>Headshots grant 40% skill repair for 8 seconds.</p>
-                </td>
-                <td>Light Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Pinprick:</h3>
-                </td>
-                <td>SRS</td>
-                <td>
-                    <h4>Perfect First Blood</h4>
-                    <p>If scoped, your first twp shots fired from out of combat or after fully reloading from
-                        empty deal headshot damage to any part of the body hit. Requires a Scope with 8x
-                        magnification or higher.</p>
-                </td>
-                <td>Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Commando:</h3>
-                </td>
-                <td>SVD</td>
-                <td>
-                    <h4>Perfectly Naked</h4>
-                    <p>Hitting an enemy with no armor grants 50% headshot damage for 8 seconds.</p>
-                </td>
-                <td>Light Zone / Dark Zone</td>
-            </tr>
-        </table>
-        <table class="tables namedWeapons sticky">
-            <tr>
-                <th colspan="4">
-                    <h2>
-                        PISTOLS
-                    </h2>
-                </th>
-            </tr>
-            <tr>
-                <th>NAME</th>
-                <th>VARIANT</th>
-                <th>PERFECT TALENT</th>
-                <th>DROP LOCATION</th>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Orbit:</h3>
-                </td>
-                <td>586 Magnum</td>
-                <td>
-                    <h4>Perfect Finisher</h4>
-                    <p>Swapping from this weapon within 10 seconds of killing an enemy grants 35% critical hit
-                        chance and 40% critical hit damage for 15 seconds.</p>
-                </td>
-                <td>Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Sharpshooter 93R:</h3>
-                </td>
-                <td>93R</td>
-                <td>
-                    <h4>Perfect Unwavering</h4>
-                    <p>Swapping to this weapon grants 400% weapon handling for 5 seconds. Kills refresh the
-                        buff. Swapping away disables this from all weapons for 5 seconds.</p>
-                </td>
-                <td>Sharpshooter Specialization</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Survivalist D50:</h3>
-                </td>
-                <td>Desert Eagle</td>
-                <td>
-                    <h4>Perfect Sadist</h4>
-                    <p>Deal +25% weapon damage to bleeding enemies. After 3 kills, applies bleed to the next
-                        enemy you hit.</p>
-                </td>
-                <td>Survivalist Specialization</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Mozambique Special:</h3>
-                </td>
-                <td>M1911</td>
-                <td>
-                    <h4>Perfect Breadbasket</h4>
-                    <p>Landing body shots adds a stack of bonus 50% headshot damage to the next headshot for 10
-                        seconds. Max stack is 2.</p>
-                </td>
-                <td>Light Zone / Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Maxim 9:</h3>
-                </td>
-                <td>Maxim 9</td>
-                <td>
-                    <h4>Perfect Spike</h4>
-                    <p>Headshots grant 25% skill damage for 8 seconds.</p>
-                </td>
-                <td>Technician Specialization</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>P320 XCompact:</h3>
-                </td>
-                <td>P320</td>
-                <td>
-                    <h4>Perfect Preservation</h4>
-                    <p>Killing an enemy repairs 12% armor over 5 seconds. Headshot kills improves the repair to
-                        24%.</p>
-                </td>
-                <td>Gunner Specialization</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Lightning Rod:</h3>
-                </td>
-                <td>PF45</td>
-                <td>
-                    <h4>Perfect Salvage</h4>
-                    <p>Killing a target has a 85% chance to refill the magazine.</p>
-                </td>
-                <td>Light Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Diceros Special:</h3>
-                </td>
-                <td>Rhino</td>
-                <td>
-                    <h4>Perfect Optimist</h4>
-                    <p>Weapon damage is increased by 4% for every 10% ammo missing from the magazine.</p>
-                </td>
-                <td>Demolitionist Specialization</td>
-            </tr>
-        </table>
-        <table class="tables namedWeapons sticky">
-            <tr>
-                <th colspan="4">
-                    <h2>
-                        RIFLES
-                    </h2>
-                </th>
-            </tr>
-            <tr>
-                <th>NAME</th>
-                <th>VARIANT</th>
-                <th>PERFECT TALENT</th>
-                <th>DROP LOCATION</th>
-            </tr>
-            <tr>
-                <td>
-                    <h3>The Austrailian:</h3>
-                </td>
-                <td>1886</td>
-                <td>
-                    <h4>Perfect Boomerang</h4>
-                    <p>Critical hits have a 75% chance to return the bullet to the magazine. If a bullet is
-                        returned to the magazine, the next shot has 50% increased damage.</p>
-                </td>
-                <td>Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Baker's Dozen:</h3>
-                </td>
-                <td>M1A</td>
-                <td>
-                    <h4>Perfect Lucky Shot</h4>
-                    <p>Magazine capacity is increased by 30%. Missed shots from cover have a 100% chance to
-                        return to the
-                        magazine.</p>
-                </td>
-                <td>Light Zone / Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Surge:</h3>
-                </td>
-                <td>M4</td>
-                <td>
-                    <h4>Perfect Spike</h4>
-                    <p>Headshots grant 25% skill damage for 8 seconds.</p>
-                </td>
-                <td>Light Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Everlasting Gaze:</h3>
-                </td>
-                <td>SCAR</td>
-                <td>
-                    <h4>Perfect Perpetuation</h4>
-                    <p>Headshots grant 50% status effect damage and duration to the next status effect you
-                        apply. Cooldown is
-                        16 seconds.</p>
-                </td>
-                <td>Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Artist's Tool:</h3>
-                </td>
-                <td>SIG 716</td>
-                <td>
-                    <h4>Perfect Rifleman</h4>
-                    <p>Landing headshots adds a stack of bonus 11% weapon damage for 5 seconds. Max stack is 6.
-                        Additional
-                        headshots refresh the duration.</p>
-                </td>
-                <td>Light Zone</td>
-            </tr>
-        </table>
-        <table class="tables namedWeapons sticky">
-            <tr>
-                <th colspan="4">
-                    <h2>
-                        SHOTGUNS
-                    </h2>
-                </th>
-            </tr>
-            <tr>
-                <th>NAME</th>
-                <th>VARIANT</th>
-                <th>PERFECT TALENT</th>
-                <th>DROP LOCATION</th>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Rock n' Roll:</h3>
-                </td>
-                <td>AA-12</td>
-                <td>
-                    <h4>Perfectly Extra</h4>
-                    <p>Increase magazine size by 50%.</p>
-                </td>
-                <td>Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Boomstick:</h3>
-                </td>
-                <td>Double Barrel</td>
-                <td>
-                    <h4>Perfect Pumped Up</h4>
-                    <p>Reloading grants 5% weapon damage for 10 seconds. Stacks up to 5 times.</p>
-                </td>
-                <td>Light Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Firestarter:</h3>
-                </td>
-                <td>Double Barrel Sawed Off (Sidearm)</td>
-                <td>
-                    <h4>Primer Rounds</h4>
-                    <p>Damaged enemies lose 50% burn resistance for 5 seconds.</p>
-                </td>
-                <td>Firewall Specialization</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>The Send-Off:</h3>
-                </td>
-                <td>KSG</td>
-                <td>
-                    <h4>Perfect Distance</h4>
-                    <p>Increase optimal range by 100%.</p>
-                    <h4>Perfectly Rooted</h4>
-                    <p>While in cover, skills deployed from cover deploy with 30% damage or 30% healing for 15
-                        seconds. Can
-                        only happen once every 60 seconds.</p>
-                </td>
-                <td>Technician Field Research</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Cuélebre:</h3>
-                </td>
-                <td>M870</td>
-                <td>
-                    <h4>Perfect Jazz Hands</h4>
-                    <p>Increase reload speed by 30%.</p>
-                </td>
-                <td>Light Zone / Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Tsunami:</h3>
-                </td>
-                <td>SASG-12</td>
-                <td>
-                    <h4>Perfect Pummel</h4>
-                    <p>2 consecutive kills refill the magazine and grant 40% weapon damage for 10 seconds.</p>
-                </td>
-                <td>Light Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Enforcer:</h3>
-                </td>
-                <td>Super 90</td>
-                <td>
-                    <h4>Perfect Pummel</h4>
-                    <p>2 consecutive kills refill the magazine and grant 40% weapon damage for 10 seconds.</p>
-                </td>
-                <td>Pre-Order</td>
-            </tr>
-        </table>
+      <table class="tables namedWeapons sticky">
+        <tr>
+          <th colspan="4">
+            MARKSMAN RIFLES
+          </th>
+        </tr>
+        <tr>
+          <th>NAME</th>
+          <th>VARIANT</th>
+          <th>PERFECT TALENT</th>
+          <th>DROP LOCATION</th>
+        </tr>
+        <tr>
+          <td>
+            <h3>The White Death:</h3>
+          </td>
+          <td>M44</td>
+          <td>
+            <h4>Headshot Damage</h4>
+            <p>137%</p>
+          </td>
+          <td>Light Zone / Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Ekim's Long Stick:</h3>
+          </td>
+          <td>Model 700</td>
+          <td>
+            <h4>Perfect Ranger</h4>
+            <p>
+              Amplifies weapon damage by 2% for every 4 meters you are away from
+              the target.
+            </p>
+          </td>
+          <td>Light Zone / Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>The Darkness:</h3>
+          </td>
+          <td>SCAR</td>
+          <td>
+            <h4>Perfect Eyeless</h4>
+            <p>
+              Deal 25% weapon damage to blinded enemies. After 3 kills, applies
+              blind to the next enemy you hit.
+            </p>
+          </td>
+          <td>Light Zone / Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Designated Hitter:</h3>
+          </td>
+          <td>SR-1</td>
+          <td>
+            <h4>Perfect Reformation</h4>
+            <p>Headshots grant 40% skill repair for 8 seconds.</p>
+          </td>
+          <td>Light Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Pinprick:</h3>
+          </td>
+          <td>SRS</td>
+          <td>
+            <h4>Perfect First Blood</h4>
+            <p>
+              If scoped, your first twp shots fired from out of combat or after
+              fully reloading from empty deal headshot damage to any part of the
+              body hit. Requires a Scope with 8x magnification or higher.
+            </p>
+          </td>
+          <td>Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Commando:</h3>
+          </td>
+          <td>SVD</td>
+          <td>
+            <h4>Perfectly Naked</h4>
+            <p>
+              Hitting an enemy with no armor grants 50% headshot damage for 8
+              seconds.
+            </p>
+          </td>
+          <td>Light Zone / Dark Zone</td>
+        </tr>
+      </table>
+      <table class="tables namedWeapons sticky">
+        <tr>
+          <th colspan="4">
+            PISTOLS
+          </th>
+        </tr>
+        <tr>
+          <th>NAME</th>
+          <th>VARIANT</th>
+          <th>PERFECT TALENT</th>
+          <th>DROP LOCATION</th>
+        </tr>
+        <tr>
+          <td>
+            <h3>Orbit:</h3>
+          </td>
+          <td>586 Magnum</td>
+          <td>
+            <h4>Perfect Finisher</h4>
+            <p>
+              Swapping from this weapon within 10 seconds of killing an enemy
+              grants 35% critical hit chance and 40% critical hit damage for 15
+              seconds.
+            </p>
+          </td>
+          <td>Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Sharpshooter 93R:</h3>
+          </td>
+          <td>93R</td>
+          <td>
+            <h4>Perfect Unwavering</h4>
+            <p>
+              Swapping to this weapon grants 400% weapon handling for 5 seconds.
+              Kills refresh the buff. Swapping away disables this from all
+              weapons for 5 seconds.
+            </p>
+          </td>
+          <td>Sharpshooter Specialization</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Survivalist D50:</h3>
+          </td>
+          <td>Desert Eagle</td>
+          <td>
+            <h4>Perfect Sadist</h4>
+            <p>
+              Deal +25% weapon damage to bleeding enemies. After 3 kills,
+              applies bleed to the next enemy you hit.
+            </p>
+          </td>
+          <td>Survivalist Specialization</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Mozambique Special:</h3>
+          </td>
+          <td>M1911</td>
+          <td>
+            <h4>Perfect Breadbasket</h4>
+            <p>
+              Landing body shots adds a stack of bonus 50% headshot damage to
+              the next headshot for 10 seconds. Max stack is 2.
+            </p>
+          </td>
+          <td>Light Zone / Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Maxim 9:</h3>
+          </td>
+          <td>Maxim 9</td>
+          <td>
+            <h4>Perfect Spike</h4>
+            <p>Headshots grant 25% skill damage for 8 seconds.</p>
+          </td>
+          <td>Technician Specialization</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>P320 XCompact:</h3>
+          </td>
+          <td>P320</td>
+          <td>
+            <h4>Perfect Preservation</h4>
+            <p>
+              Killing an enemy repairs 12% armor over 5 seconds. Headshot kills
+              improves the repair to 24%.
+            </p>
+          </td>
+          <td>Gunner Specialization</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Lightning Rod:</h3>
+          </td>
+          <td>PF45</td>
+          <td>
+            <h4>Perfect Salvage</h4>
+            <p>Killing a target has a 85% chance to refill the magazine.</p>
+          </td>
+          <td>Light Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Diceros Special:</h3>
+          </td>
+          <td>Rhino</td>
+          <td>
+            <h4>Perfect Optimist</h4>
+            <p>
+              Weapon damage is increased by 4% for every 10% ammo missing from
+              the magazine.
+            </p>
+          </td>
+          <td>Demolitionist Specialization</td>
+        </tr>
+      </table>
+      <table class="tables namedWeapons sticky">
+        <tr>
+          <th colspan="4">
+            RIFLES
+          </th>
+        </tr>
+        <tr>
+          <th>NAME</th>
+          <th>VARIANT</th>
+          <th>PERFECT TALENT</th>
+          <th>DROP LOCATION</th>
+        </tr>
+        <tr>
+          <td>
+            <h3>The Austrailian:</h3>
+          </td>
+          <td>1886</td>
+          <td>
+            <h4>Perfect Boomerang</h4>
+            <p>
+              Critical hits have a 75% chance to return the bullet to the
+              magazine. If a bullet is returned to the magazine, the next shot
+              has 50% increased damage.
+            </p>
+          </td>
+          <td>Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Baker's Dozen:</h3>
+          </td>
+          <td>M1A</td>
+          <td>
+            <h4>Perfect Lucky Shot</h4>
+            <p>
+              Magazine capacity is increased by 30%. Missed shots from cover
+              have a 100% chance to return to the magazine.
+            </p>
+          </td>
+          <td>Light Zone / Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Surge:</h3>
+          </td>
+          <td>M4</td>
+          <td>
+            <h4>Perfect Spike</h4>
+            <p>Headshots grant 25% skill damage for 8 seconds.</p>
+          </td>
+          <td>Light Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Everlasting Gaze:</h3>
+          </td>
+          <td>SCAR</td>
+          <td>
+            <h4>Perfect Perpetuation</h4>
+            <p>
+              Headshots grant 50% status effect damage and duration to the next
+              status effect you apply. Cooldown is 16 seconds.
+            </p>
+          </td>
+          <td>Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Artist's Tool:</h3>
+          </td>
+          <td>SIG 716</td>
+          <td>
+            <h4>Perfect Rifleman</h4>
+            <p>
+              Landing headshots adds a stack of bonus 11% weapon damage for 5
+              seconds. Max stack is 6. Additional headshots refresh the
+              duration.
+            </p>
+          </td>
+          <td>Light Zone</td>
+        </tr>
+      </table>
+      <table class="tables namedWeapons sticky">
+        <tr>
+          <th colspan="4">
+            SHOTGUNS
+          </th>
+        </tr>
+        <tr>
+          <th>NAME</th>
+          <th>VARIANT</th>
+          <th>PERFECT TALENT</th>
+          <th>DROP LOCATION</th>
+        </tr>
+        <tr>
+          <td>
+            <h3>Rock n' Roll:</h3>
+          </td>
+          <td>AA-12</td>
+          <td>
+            <h4>Perfectly Extra</h4>
+            <p>Increase magazine size by 50%.</p>
+          </td>
+          <td>Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Boomstick:</h3>
+          </td>
+          <td>Double Barrel</td>
+          <td>
+            <h4>Perfect Pumped Up</h4>
+            <p>
+              Reloading grants 5% weapon damage for 10 seconds. Stacks up to 5
+              times.
+            </p>
+          </td>
+          <td>Light Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Firestarter:</h3>
+          </td>
+          <td>Double Barrel Sawed Off (Sidearm)</td>
+          <td>
+            <h4>Primer Rounds</h4>
+            <p>Damaged enemies lose 50% burn resistance for 5 seconds.</p>
+          </td>
+          <td>Firewall Specialization</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>The Send-Off:</h3>
+          </td>
+          <td>KSG</td>
+          <td>
+            <h4>Perfect Distance</h4>
+            <p>Increase optimal range by 100%.</p>
+            <h4>Perfectly Rooted</h4>
+            <p>
+              While in cover, skills deployed from cover deploy with 30% damage
+              or 30% healing for 15 seconds. Can only happen once every 60
+              seconds.
+            </p>
+          </td>
+          <td>Technician Field Research</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Cuélebre:</h3>
+          </td>
+          <td>M870</td>
+          <td>
+            <h4>Perfect Jazz Hands</h4>
+            <p>Increase reload speed by 30%.</p>
+          </td>
+          <td>Light Zone / Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Tsunami:</h3>
+          </td>
+          <td>SASG-12</td>
+          <td>
+            <h4>Perfect Pummel</h4>
+            <p>
+              2 consecutive kills refill the magazine and grant 40% weapon
+              damage for 10 seconds.
+            </p>
+          </td>
+          <td>Light Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Enforcer:</h3>
+          </td>
+          <td>Super 90</td>
+          <td>
+            <h4>Perfect Pummel</h4>
+            <p>
+              2 consecutive kills refill the magazine and grant 40% weapon
+              damage for 10 seconds.
+            </p>
+          </td>
+          <td>Pre-Order</td>
+        </tr>
+      </table>
 
-        <table class="tables namedWeapons sticky">
-            <tr>
-                <th colspan="4">
-                    <h2>
-                        SUB MACHINE GUNS
-                    </h2>
-                </th>
-            </tr>
-            <tr>
-                <th>NAME</th>
-                <th>VARIANT</th>
-                <th>PERFECT TALENT</th>
-                <th>DROP LOCATION</th>
-            </tr>
-            <tr>
-                <td>
-                    <h3>The Grudge:</h3>
-                </td>
-                <td>CMMG Banshee</td>
-                <td>
-                    <h4>Perfectly Vindictive</h4>
-                    <p>Killing an enemy with a status effect applied grants all group members within 20 meters,
-                        158% critical hit chance and 18% critical hit damage for 20 seconds.</p>
-                </td>
-                <td>Keener</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Swap Chain:</h3>
-                </td>
-                <td>MP7</td>
-                <td>
-                    <h4>Perfect Unwavering</h4>
-                    <p>Swapping to this weapon grants 400% weapon handling for 5 seconds. Kills refresh the buff.
-                        Swapping away
-                        disables this from all weapons for 5 seconds.</p>
-                </td>
-                <td>Light Zone / Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Safety Distance:</h3>
-                </td>
-                <td>MPX</td>
-                <td>
-                    <h4>Perfect Outsider</h4>
-                    <p>After killing an enemy, gaint 125% optimal range and 125% accuracy for 10 seconds.</p>
-                </td>
-                <td>Light Zone / Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>The Apartment:</h3>
-                </td>
-                <td>MPX</td>
-                <td>
-                    <h4>Perfectly Measured</h4>
-                    <p>The top half of the magazine has +20% rate of fire and -27% weapon damage. The bottom half of the
-                        magazine has -20% rate of fire and +33% weapon damage.</p>
-                </td>
-                <td>Dark Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Emeline's Guard:</h3>
-                </td>
-                <td>P90</td>
-                <td>
-                    <h4>Perfect Preservation</h4>
-                    <p>Killing an enemy repairs 12% armor over 5 seconds. Headshot kills improves the repair to 24%.</p>
-                </td>
-                <td>Light Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Cold Relations:</h3>
-                </td>
-                <td>PP-19</td>
-                <td>
-                    <h4>Perfectly Strained</h4>
-                    <p>Gain 10% critical hit damage for every 0.5 seconds you are firing. Stacks up to 8 times.</p>
-                </td>
-                <td>Light Zone</td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>Dark Winter:</h3>
-                </td>
-                <td>Vector</td>
-                <td>
-                    <h4>Perfect Killer</h4>
-                    <p>Killing an enemy with a critical hit grants 50% critical hit damage for 10 seconds.</p>
-                </td>
-                <td>Dark Zone</td>
-            </tr>
-        </table>
+      <table class="tables namedWeapons sticky">
+        <tr>
+          <th colspan="4">
+            SUB MACHINE GUNS
+          </th>
+        </tr>
+        <tr>
+          <th>NAME</th>
+          <th>VARIANT</th>
+          <th>PERFECT TALENT</th>
+          <th>DROP LOCATION</th>
+        </tr>
+        <tr>
+          <td>
+            <h3>The Grudge:</h3>
+          </td>
+          <td>CMMG Banshee</td>
+          <td>
+            <h4>Perfectly Vindictive</h4>
+            <p>
+              Killing an enemy with a status effect applied grants all group
+              members within 20 meters, 158% critical hit chance and 18%
+              critical hit damage for 20 seconds.
+            </p>
+          </td>
+          <td>Keener</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Swap Chain:</h3>
+          </td>
+          <td>MP7</td>
+          <td>
+            <h4>Perfect Unwavering</h4>
+            <p>
+              Swapping to this weapon grants 400% weapon handling for 5 seconds.
+              Kills refresh the buff. Swapping away disables this from all
+              weapons for 5 seconds.
+            </p>
+          </td>
+          <td>Light Zone / Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Safety Distance:</h3>
+          </td>
+          <td>MPX</td>
+          <td>
+            <h4>Perfect Outsider</h4>
+            <p>
+              After killing an enemy, gaint 125% optimal range and 125% accuracy
+              for 10 seconds.
+            </p>
+          </td>
+          <td>Light Zone / Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>The Apartment:</h3>
+          </td>
+          <td>MPX</td>
+          <td>
+            <h4>Perfectly Measured</h4>
+            <p>
+              The top half of the magazine has +20% rate of fire and -27% weapon
+              damage. The bottom half of the magazine has -20% rate of fire and
+              +33% weapon damage.
+            </p>
+          </td>
+          <td>Dark Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Emeline's Guard:</h3>
+          </td>
+          <td>P90</td>
+          <td>
+            <h4>Perfect Preservation</h4>
+            <p>
+              Killing an enemy repairs 12% armor over 5 seconds. Headshot kills
+              improves the repair to 24%.
+            </p>
+          </td>
+          <td>Light Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Cold Relations:</h3>
+          </td>
+          <td>PP-19</td>
+          <td>
+            <h4>Perfectly Strained</h4>
+            <p>
+              Gain 10% critical hit damage for every 0.5 seconds you are firing.
+              Stacks up to 8 times.
+            </p>
+          </td>
+          <td>Light Zone</td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Dark Winter:</h3>
+          </td>
+          <td>Vector</td>
+          <td>
+            <h4>Perfect Killer</h4>
+            <p>
+              Killing an enemy with a critical hit grants 50% critical hit
+              damage for 10 seconds.
+            </p>
+          </td>
+          <td>Dark Zone</td>
+        </tr>
+      </table>
     </section>
     <footer>
-        <p>GEARformation is not affiliated with Ubisoft or any of its partners. Any "The Division" name, logos and/or
-            images are registered trademarks of Ubisoft.</p>
+      <p>
+        GEARformation is not affiliated with Ubisoft or any of its partners. Any
+        "The Division" name, logos and/or images are registered trademarks of
+        Ubisoft.
+      </p>
     </footer>
-</body>
-
+  </body>
 </html>
