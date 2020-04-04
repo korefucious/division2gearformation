@@ -40,7 +40,7 @@ li {
   max-height: 100%;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-flow: none;
   background-color: #151515;
@@ -69,6 +69,7 @@ li {
 }
 .tables tr {
   border: 1px solid white;
+  border-radius: 10px;
 }
 .tables tr:hover {
   background-color: #373737;
@@ -76,7 +77,8 @@ li {
 .tables th {
   font-size: 2rem;
   border: 1px solid white;
-  padding: 1%;
+  border-radius: 5px;
+  padding: 10px;
   background-color: darkslategray;
   z-index: 0;
 }
@@ -85,6 +87,7 @@ li {
 }
 .tables td {
   border: 1px solid white;
+  border-radius: 5px;
   font-size: 2rem;
   padding: 1%;
   text-align: center;
@@ -262,11 +265,23 @@ li {
   height: 40vh;
   margin: 2%;
 }
-.mods {
-  width: 40%;
+.brand {
+  width: 18%;
+  height: 40vh;
+  margin: 0.5%;
 }
-.set td {
-  width: 14%;
+.brand h2 {
+  font-size: 3rem;
+}
+.brand td {
+  width: 50%;
+}
+.taller {
+  height: 76vh;
+}
+.gmods {
+  width: 40%;
+  margin: 3% 0;
 }
 .gTalents .icon {
   width: 10%;
