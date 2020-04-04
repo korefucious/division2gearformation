@@ -286,6 +286,37 @@ li {
 .gTalents .name {
   width: 20%;
 }
+.skills {
+  height: 40vh;
+  margin: 3% 0;
+}
+.chem {
+  width: 20%;
+}
+.drone {
+  width: 18%;
+}
+.firefly {
+  width: 28%;
+}
+.hive {
+  width: 20%;
+}
+.pulse {
+  width: 20%;
+}
+.seeker {
+  width: 20%;
+}
+.shield {
+  width: 20%;
+}
+.stickybomb {
+  width: 45%;
+}
+.turret {
+  width: 20%;
+}
 .specContainer {
   width: 100%;
   padding: 3%;
