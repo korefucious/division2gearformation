@@ -1,0 +1,18 @@
+const division2info = {
+    "weapons": {
+        "attributes": [];
+        "exotics": [];
+        "named": [];
+        "talents": [];
+    }; //close weapons
+    "gear": {
+        "attributes": [];
+        "brands": [];
+        "exotics": [];
+        "mods": [];
+        "named": [];
+        "talents": [];
+    };//close gear
+    "skills": {}; // close skills
+    "specializations": {}; //close specs
+}
