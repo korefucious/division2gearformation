@@ -248,6 +248,12 @@ li {
 .namedWeapons th {
   width: 20%;
 }
+.namedWeaponButton {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5% 0;
+}
 .wTalents {
   width: 90%;
 }
