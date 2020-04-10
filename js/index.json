@@ -1,6 +1,16 @@
 {
     "weapons": {
-        "exoticWeapons": [{}],
+        "basicTypes": ["Assault Rifle", "Light Machine Guns", ],
+        "exoticWeapons": [
+            {
+                "exoticWeaponName": "The Bighorn", 
+                "basicType": "Assault Rifle", 
+                "exoticTalent": {
+                    "talentName": "Big Game Hunter",
+                    "talentEffect":"When scoped: switches to semi-automatic fire mode, dealing 450% weapon damage with each shot."
+            }
+        }
+        ]
         "namedWeapons": [{},{}],
         "weaponAttributes": [{},{}],
         "weaponTalents": [{}]
