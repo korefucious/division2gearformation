@@ -1,18 +1,39 @@
-const division2info = {
+{
     "weapons": {
-        "attributes": [];
-        "exotics": [];
-        "named": [];
-        "talents": [];
-    }; //close weapons
+        "exoticWeapons": [{}],
+        "namedWeapons": [{},{}],
+        "weaponAttributes": [{},{}],
+        "weaponTalents": [{}]
+    } //close weapons
+        
     "gear": {
-        "attributes": [];
-        "brands": [];
-        "exotics": [];
-        "mods": [];
-        "named": [];
-        "talents": [];
-    };//close gear
-    "skills": {}; // close skills
-    "specializations": {}; //close specs
-}
+        "brands":[{}],
+        "exoticGear": [{}],
+        "namedGear": [{},{}],
+        "gearAttributes": [{},{}],
+        "gearMods": [{}],
+        "gearSets":[{}],
+        "gearTalents": [{}]
+    } //closes weapons
+    "skills" {
+        "chemLauncher": [{}],
+        "decoy": [{}],
+        "drone": [{}],
+        "firefly": [{}],
+        "hive": [{}],
+        "pulse": [{}],
+        "seekerMine": [{}],
+        "shield": [{}],
+        "shockTrap": [{}],
+        "stickyBomb": [{}],
+        "turret": [{}],
+    } //close skills
+    "specializations": {
+        "demolitionist": [{}],
+        "firewall": [{}],
+        "gunner": [{}],
+        "sharpshoooter": [{}],
+        "survivalist": [{}],
+        "sharpshooter": [{}]
+    }//close specializations
+} //closes dataset
