@@ -1,6 +1,6 @@
 {
     "weapons": {
-        "basicTypes": ["Assault Rifle", "Light Machine Guns", ],
+        "basicTypes": ["Assault Rifle", "Light Machine Gun", "Marksman Rifle", "Pistol", "Shotgun", "Sub Machine Gun", "Rifle"],
         "exoticWeapons": [
             {
                 "exoticWeaponName": "The Bighorn", 
@@ -8,9 +8,20 @@
                 "exoticTalent": {
                     "talentName": "Big Game Hunter",
                     "talentEffect":"When scoped: switches to semi-automatic fire mode, dealing 450% weapon damage with each shot."
-            }
-        }
-        ]
+                }
+            },
+            {
+                "exoticWeaponName": "Eagle Bearer", 
+                "basicType": "Assault Rifle", 
+                "exoticTalent": {
+                "talentName": "Eagle's Strike",
+                "talentEffect":"Accuracy increases as you continuously fire, up to 30%. Headshot kills grant the Tenacity buff for 15 seconds. The strength of Tenacity is increased by 1% for body shots and 5% for headshots."
+                }
+                "exoticTalent": {
+                    "talentName": "Tenacity",
+                    "talentEffect":"Accuracy increases as you continuously fire, up to 30%. Headshot kills grant the Tenacity buff for 15 seconds. The strength of Tenacity is increased by 1% for body shots and 5% for headshots."
+                }    
+            },
         "namedWeapons": [{},{}],
         "weaponAttributes": [{},{}],
         "weaponTalents": [{}]
